@@ -44,7 +44,7 @@ body {
 .container-nar {
   margin: auto;
   width: 100%;
-  max-width: 550px;
+  max-width: 580px;
 }
 
 @media only screen and (max-width: 1280px) {
