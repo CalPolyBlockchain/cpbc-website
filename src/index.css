@@ -6,40 +6,100 @@
   background-color: #f3ebf6
 }
 #dark {
-  background-color: #46045e
+  background-color: #031E17
 }
+#light .text{
+  color: #222222
+}
+#dark .text{
+  color: #ffffff;
+}
+.text-big{
+  font-weight: bold;
+}
+.text-med{
+  font-weight: 600;
+}
+.text-narrow{
+  font-weight: 400;
+}
+
+
 
 body {
   margin: 0;
-  background-color:#031E17;
   font-family: 'Poppins';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.container {
+.container-wide {
   margin: auto;
-  max-width: 1520px;
+  width: 90%;
+  max-width: 1536px;
+}
+.container-mid {
+  margin: auto;
+  width: 100%;
+  max-width: 1100px;
+}
+.container-nar {
+  margin: auto;
+  width: 100%;
+  max-width: 550px;
 }
 
-@media only screen and (max-width: 1520px) {
-  .container {
-    max-width: 1100px;
+@media only screen and (max-width: 1280px) {
+  .container-wide {
+    margin: auto;
+    width: 90%;
+    max-width: 1024px;
+  }
+  .container-mid {
+    margin: auto;
     width: 100%;
+    max-width: 1024px;
+  }
+  .container-nar {
+    margin: auto;
+    width: 100%;
+    max-width: 1024px;
   }
 }
 
-@media only screen and (max-width: 900px) {
-  .container {
-    max-width: 775px;
+@media only screen and (max-width: 1024px) {
+  .container-wide {
+    margin: auto;
+    width: 90%;
+    max-width: 768px;
+  }
+  .container-mid {
+    margin: auto;
     width: 100%;
+    max-width: 768px;
+  }
+  .container-nar {
+    margin: auto;
+    width: 100%;
+    max-width: 768px;
   }
 }
 
-@media only screen and (max-width: 480px) {
-  .container {
-    max-width: 358px;
+@media only screen and (max-width: 640px) {
+  .container-wide {
+    margin: auto;
+    width: 90%;
+    max-width: 480px;
+  }
+  .container-mid {
+    margin: auto;
     width: 100%;
+    max-width: 480px;
+  }
+  .container-nar {
+    margin: auto;
+    width: 100%;
+    max-width: 480px;
   }
 }
 

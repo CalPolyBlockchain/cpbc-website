@@ -1,24 +1,22 @@
 import React from 'react'
 import ProjectItem from '../ProjectItem/ProjectItem'
 
-const data = ["blow","job", "city"]
+import { ProjectImages } from '../../images'
 
 function Projects() {
   return (
-    <div class="container">
-        <div class="text-[#ffffff] text-[48px] w-[85%] font-semibold md:text-[90px] md:w-[75%] md:leading-[110px] lg:text-[132px] lg:leading-[175px] lg:w-[75%]">
+    <div id="theme" class="container-wide text">
+        <div class="text-big text-[42px] w-[100%] leading-[50px] pt-5 md:text-[90px] md:w-[100%] md:leading-[110px] lg:text-[132px] lg:leading-[145px] lg:w-[95%] xl:text-[132px] xl:leading-[145px] xl:w-[85%] 2xl:text-[132px] 2xl:leading-[155px] 2xl:w-[85%]">
             <h1>Projects and Activities</h1>
         </div>
-        <div class="text-[#ffffff]  max-w-[355px] m-auto md:max-w-[355px] lg:max-w-[1100px] lg:text-[39px]">
+        <div class="container-mid text-med text-[24px] pt-5 md:text-[24px] lg:text-[38px] xl:text-[38px] 2xl:text-[42px]">
             <div>
                 <h2>Student Projects</h2>
-                <hr class="border-1-white"></hr>
+                <hr class="border-1-white  mt-3 "></hr>
             </div>
-            <div class="flex flex-row">
+            <div class="flex flex-row mt-3">
             {
-                data.map((element, index) => {
-                    return <ProjectItem name={element} index={index} />}
-                )
+                ProjectImages.map((element, index) => {return <ProjectItem img={element} index={index} />})
             }
             </div>
         </div>
