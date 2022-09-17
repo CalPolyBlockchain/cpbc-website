@@ -3,46 +3,30 @@
 @tailwind utilities;
 
 #light {
-  background-color: #f3ebf6
+  background-color: #f3ebf6;
 }
 #dark {
-  background-color: #031E17
+  background-color: #031e17;
 }
-#light .text{
-  color: #222222
+#light .text {
+  color: #222222;
 }
-#dark .text{
+#dark .text {
   color: #ffffff;
 }
-.text-big{
+.text-big {
   font-weight: bold;
 }
-.text-med{
+.text-med {
   font-weight: 600;
 }
-.text-narrow{
+.text-narrow {
   font-weight: 400;
-}
-
-#light .date-box{
-  border: 2px solid #222222;
-}
-#dark .date-box{
-  border: 2px solid #FFFFFF;
-}
-#light .yellow-box{
-  border:2px solid #FFDB1C;
-  border-radius: 1px;
-
-}
-#dark .yellow-box{
-  border: 2px solid #FFDB1C;
-  border-radius: 1px;
 }
 
 body {
   margin: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -60,7 +44,7 @@ body {
 .container-nar {
   margin: auto;
   width: 100%;
-  max-width: 550px;
+  max-width: 580px;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -72,12 +56,12 @@ body {
   .container-mid {
     margin: auto;
     width: 100%;
-    max-width: 1024px;
+    max-width: 900px;
   }
   .container-nar {
     margin: auto;
     width: 100%;
-    max-width: 1024px;
+    max-width: 480px;
   }
 }
 
@@ -95,7 +79,7 @@ body {
   .container-nar {
     margin: auto;
     width: 100%;
-    max-width: 768px;
+    max-width: 580px;
   }
 }
 
@@ -116,4 +100,3 @@ body {
     max-width: 480px;
   }
 }
-
