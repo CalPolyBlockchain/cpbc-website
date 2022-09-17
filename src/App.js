@@ -1,7 +1,7 @@
 import { createContext, useState } from 'react'
 import NavBar from './components/NavBar/NavBar';
 import Projects from './components/Projects/Projects';
-
+import About from './components/About/About';
 export const ThemeContext = createContext(null)
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div class="body" id={theme}>
         <NavBar />
+        <About />
         <Projects />
       </div>
     </ThemeContext.Provider>
