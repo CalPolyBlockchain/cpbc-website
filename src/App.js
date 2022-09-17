@@ -1,22 +1,22 @@
 import { createContext, useState } from 'react'
-import './App.css';
+import Projects from './components/Projects/Projects';
+
 export const ThemeContext = createContext(null)
+
 function App() {
-  const [theme, setTheme] = useState('light')
+  const [theme, setTheme] = useState('dark')
   const toggleTheme = ()=>{
     setTheme((current) => (current === "light" ? "dark" : "light"));
   }
-
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <div class="container">
-      <h1 id={theme} className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <div class="body" id={theme}>
+        <Projects />
       </div>
     </ThemeContext.Provider>
-
   );
 }
 
 export default App;
+
+
