@@ -24,7 +24,21 @@
   font-weight: 400;
 }
 
+#light .date-box{
+  border: 2px solid #222222;
+}
+#dark .date-box{
+  border: 2px solid #FFFFFF;
+}
+#light .yellow-box{
+  border:2px solid #FFDB1C;
+  border-radius: 1px;
 
+}
+#dark .yellow-box{
+  border: 2px solid #FFDB1C;
+  border-radius: 1px;
+}
 
 body {
   margin: 0;
