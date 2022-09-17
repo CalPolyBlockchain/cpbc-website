@@ -1,4 +1,5 @@
 import React from "react";
+import './Hackathon.css'
 
 const Hackathon = (props) => {
   const { isFuture, eventName, startDate, endDate, imgUrl } = props.data;

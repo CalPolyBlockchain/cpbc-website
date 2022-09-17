@@ -1,4 +1,5 @@
 import { createContext, useState } from 'react'
+import NavBar from './components/NavBar/NavBar';
 import Projects from './components/Projects/Projects';
 
 export const ThemeContext = createContext(null)
@@ -11,6 +12,7 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div class="body" id={theme}>
+        <NavBar />
         <Projects />
       </div>
     </ThemeContext.Provider>
