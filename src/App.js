@@ -2,6 +2,7 @@ import { createContext, useState } from 'react'
 import NavBar from './components/NavBar/NavBar';
 import Projects from './components/Projects/Projects';
 import About from './components/About/About';
+import Socials from './components/Socials/Socials';
 export const ThemeContext = createContext(null)
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <div class="body" id={theme}>
         <NavBar />
         <About />
+        <Socials />
+
         <Projects />
       </div>
     </ThemeContext.Provider>

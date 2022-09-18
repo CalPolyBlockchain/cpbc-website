@@ -1,3 +1,5 @@
+import { FaDiscord, FaTwitter } from 'react-icons/fa'
+
 export const hackathons = [
   {
     isFuture: true,
@@ -29,4 +31,19 @@ export const hackathons = [
     imgUrl:
       "https://storage.googleapis.com/ethglobal-api-production/events/5b9mq/logo/1652207364354_roadtoweb3.png",
   },
+];
+
+
+
+export const socials = [
+  {
+    companyName: "DISCORD",
+    count: "209",
+    icon: <FaDiscord />
+  },
+  {
+    companyName: "TWITTER",
+    count: "300",
+    icon: <FaTwitter />
+  }
 ];
