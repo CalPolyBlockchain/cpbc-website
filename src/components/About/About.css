@@ -15,11 +15,21 @@
 
   }
 
-
+  .hidden-mobile{
+    display:contents;
+  }
+  .hidden-desktop{
+    display:none;
+  }
 
 
   @media only screen and (max-width: 1280px) {
-
+    .hidden-mobile{
+      display:contents;
+    }
+    .hidden-desktop{
+      display:none;
+    }
   }
   
   @media only screen and (max-width: 1024px) {
@@ -35,6 +45,13 @@
       background-size: cover;
       background-position: 50% 49%;
       scale: 100%;
+    }
+  
+    .hidden-mobile{
+      display:contents;
+    }
+    .hidden-desktop{
+      display:none;
     }
   }
   
@@ -53,5 +70,12 @@
       scale: 150%;
   
     }
+    .hidden-mobile{
+      display: none;
+    }
+    .hidden-desktop{
+      display:contents;
+    }
+    
   }
   
