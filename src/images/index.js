@@ -5,6 +5,14 @@ const Seam = require("./projects/seam.png");
 
 export const projectImages = [ Mobius, Mustang, Seam ]
 
+const CPEng = require("./partners/CP_Engineering.jpg")
+const Decentral = require("./partners/DecentralCoast.jpg")
+const Orfalea = require("./partners/Orfalea.png")
+
+export const partnersImages = [ CPEng, Decentral, Orfalea ]
+
+// const partnersBackground = require("./partners/KennedyLibrary_Atrium.jpg")
+// export const partnersBG = [ partnersBackground ]
 
 export const logo = require("./logos/cp2.png");
 

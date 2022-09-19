@@ -1,6 +1,7 @@
 import { createContext, useState } from 'react'
 import NavBar from './components/NavBar/NavBar';
 import Projects from './components/Projects/Projects';
+import Partners from './components/Partners/Partners';
 import About from './components/About/About';
 export const ThemeContext = createContext(null)
 
@@ -15,6 +16,7 @@ function App() {
         <NavBar />
         <About />
         <Projects />
+        <Partners/>
       </div>
     </ThemeContext.Provider>
   );
