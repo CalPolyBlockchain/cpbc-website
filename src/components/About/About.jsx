@@ -3,6 +3,12 @@ import { cpbc_logo } from "../../images/index";
 import './About.css'
 
 const About = () => {
+  const contactUs = () =>{
+    alert("Contact Us")
+  }
+  const learnMore = () =>{
+    alert("Learn More")
+  }
   return (
     <div  id="top" className="mb-20">
       <div className="relative wedge-is-on h-[453px] md:h-[437px] lg:h-[700px] xl:h-[700px]  w-full ">
@@ -49,11 +55,11 @@ const About = () => {
           easy it is to plug into the DeFi ecosystem.
         </div>
       </div>
-      <div className="flex container-wide justify-between md:justify-center md:mx-1 ">
-        <button className="text font-bold text-[18px] py-3 px-7  border-2 rounded-md md:mr-5 md:py-2 md:px-4 md:border-1 md:text-[12px] lg:text-[18px] lg:py-3 lg:px-7 ">
+      <div className=" flex container-wide justify-between md:justify-center md:mx-1 ">
+        <button className="contact-us text font-bold text-[18px] py-3 px-7  border-2 rounded-md md:mr-5 md:py-2 md:px-4 md:border-1 md:text-[12px] lg:text-[18px] lg:py-3 lg:px-7 " onClick={contactUs}>
           Contact Us
         </button>
-        <button className="text font-bold text-[18px] py-3 px-7  border-2 rounded-md md:mr-10 md:py-2 md:px-4 md:border-1 md:text-[12px] lg:text-[18px] lg:py-3 lg:px-7 ">
+        <button className="contact-us text font-bold text-[18px] py-3 px-7  border-2 rounded-md md:mr-10 md:py-2 md:px-4 md:border-1 md:text-[12px] lg:text-[18px] lg:py-3 lg:px-7 " onClick={contactUs}>
           Learn More
         </button>
       </div>

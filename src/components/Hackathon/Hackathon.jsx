@@ -1,13 +1,40 @@
 import React from "react";
 import './Hackathon.css'
+import { useState, useEffect, useRef } from "react";
 
-const Hackathon = (props) => {
-  const { isFuture, eventName, startDate, endDate, imgUrl } = props.data;
+const Hackathon = ({data, cascade}) => {
+  const { eventName, startDate, endDate, imgUrl, link } = data;
+  const [isAnimating, setIsAnimating] = useState(false);
+  const [isHover, setIsHover] = useState(false);
+
+  useEffect(() => {
+    if (isAnimating) {
+      const timeout = setTimeout(() => {
+        setIsAnimating(false);
+      }, 1000);
+      return () => clearTimeout(timeout);
+    } else {
+      const timeout = setTimeout(() => {
+        setIsAnimating(true);
+      }, 1000);
+      return () => clearTimeout(timeout);
+    }
+  }, [isAnimating]);
+
+  const handleMouseEnter = () => {
+    setIsHover(true)
+  };
+  const handleMouseLeave = () => {
+    setIsHover(false)
+  };
+ 
   return (
-    <div className="flex flex-row text mt-3 mb-3 justify-between  xl:mt-5 xl:mb-5">
+    
+    <div id='hacker' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{ transform: `translateX(-${cascade}%)` }}>
+      <a href={link} target="_blank" rel="noreferrer" className=" flex flex-row text mt-3 mb-3 justify-between  xl:mt-5 xl:mb-5 cursor-pointer">
       <div className="hack-img  w-[75px] md:w-[110px] lg:w-[110px] xl:w-[130px] ">
         <div className="flex relative">
-          {isFuture && <div className="absolute -left-4 h-[75px] md:h-[110px] xl:h-[130px] xl:-left-7 yellow-box"></div>}
+          {isHover && <div className={`animated-div ${isAnimating ? "animating absolute -left-4 h-[75px] md:h-[110px] xl:h-[130px] xl:-left-7 yellow-box" : "absolute -left-4 h-[75px] md:h-[110px] xl:h-[130px] xl:-left-7 yellow-box"}`} ></div>}
           <img className="rounded-md md:rounded-xl lg:rounded-2xl" src={imgUrl} alt=" of stuff" />
         </div>
       </div>
@@ -19,6 +46,7 @@ const Hackathon = (props) => {
         </div>
       </div>
       </div>
+      </a>
     </div>
   );
 };
