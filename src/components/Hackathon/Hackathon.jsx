@@ -1,6 +1,6 @@
 import React from "react";
 import './Hackathon.css'
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 
 const Hackathon = ({data, cascade}) => {
   const { eventName, startDate, endDate, imgUrl, link } = data;

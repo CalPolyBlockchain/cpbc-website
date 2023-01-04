@@ -2,11 +2,11 @@ import { useState, useEffect, useRef } from "react";
 import ProjectItem from "../ProjectItem/ProjectItem";
 import Hackathon from "../Hackathon/Hackathon";
 import { projectImages } from "../../images";
-import { hackathons } from "../../data";
+import { hackathons, projects } from "../../data";
 
 import "./Projects.css";
 function Projects() {
-  const slideShowLength = ((projectImages.length * 300) + (projectImages.length * 10))
+  const slideShowLength = ((projects.length * 300) + (projects.length * 10))
   const [interval, setInterval] = useState(0);
   const steps = Math.abs(interval);
   const [pointer, setPointer] = useState(0)
@@ -48,11 +48,11 @@ const translateStyle = {
   translate : pointer + "px"
 }
   const handleClick = (e) => {
-    if (e.currentTarget.id === "project-left") {
+    if (e.currentTarget.id === "project-right") {
       if(pointer - steps >= interval){
         setPointer((current)=>current-steps)
       }
-    } else if (e.currentTarget.id === "project-right") {
+    } else if (e.currentTarget.id === "project-left") {
       if(pointer < 0){
         setPointer((current)=>current+steps)
       }
@@ -88,8 +88,8 @@ const translateStyle = {
                 class="slideshow-wrapper"
                 style={translateStyle} 
               >
-                {projectImages.map((element, index) => {
-                  return <ProjectItem img={element} index={index} />;
+                {projects.map((element, index) => {
+                  return <ProjectItem img={element.imgUrl} url={element.link} index={index} />;
                 })}
               </div>
             </div>

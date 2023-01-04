@@ -33,3 +33,29 @@ export const hackathons = [
       link: "https://roadtoweb3.ethglobal.com/"
   },
 ];
+const Mobius = require("../images/projects/mobius.png")
+const Mustang = require("../images/projects/mustang-dao.png");
+const Seam = require("../images/projects/seam.png");
+
+export const projects = [
+  {
+    projectName: "Mobius Money",
+    imgUrl: Mobius,
+    link: "https://www.mobius.money/"
+  },
+  {
+    projectName: "Mustang DAO",
+    imgUrl: Mustang,
+    link: "https://github.com/CalPolyBlockchain/MustangDAOPOAP/"
+  },
+  {
+    projectName: "SEAM",
+    imgUrl: Seam,
+    link: "https://ethcc.io/"
+  },
+  {
+    projectName: "Mobius",
+    imgUrl: Mobius,
+      link: "https://www.mobius.money/"
+  },
+];

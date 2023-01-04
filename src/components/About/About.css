@@ -20,8 +20,13 @@
     background-image: url('../../images/hero/sixteen-miles-out-IDFJUVl0puM-unsplash.jpg');
     background-size: cover;
     background-position: 50% 39%;;
-
   }
+  #light button{ 
+    color:#fff!important;
+  }
+
+
+
 
   .hidden-mobile{
     display:contents;
