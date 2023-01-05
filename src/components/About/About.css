@@ -5,6 +5,8 @@
 .contact-us:hover{
   background-color:#F2A413;
   color:#fff;
+  border-color: transparent;
+  box-shadow: 0px 2px rgb(57, 57, 57);
 }
 .wedge-is-on {
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);

@@ -34,7 +34,7 @@ const Hackathon = ({data, cascade}) => {
       <a href={link} target="_blank" rel="noreferrer" className=" flex flex-row text mt-3 mb-3 justify-between  xl:mt-5 xl:mb-5 cursor-pointer">
       <div className="hack-img  w-[75px] md:w-[110px] lg:w-[110px] xl:w-[130px] ">
         <div className="flex relative">
-          {isHover && <div className={`animated-div ${isAnimating ? "animating absolute -left-4 h-[75px] md:h-[110px] xl:h-[130px] xl:-left-7 yellow-box" : "absolute -left-4 h-[75px] md:h-[110px] xl:h-[130px] xl:-left-7 yellow-box"}`} ></div>}
+          {isHover && <div className={`animated-div ${isAnimating ? "animating absolute lefter h-[75px] md:h-[110px] xl:h-[130px] xl:-left-7 yellow-box" : "absolute lefter h-[75px] md:h-[110px] xl:h-[130px] xl:-left-7 yellow-box"}`} ></div>}
           <img className="rounded-md md:rounded-xl lg:rounded-2xl" src={imgUrl} alt=" of stuff" />
         </div>
       </div>

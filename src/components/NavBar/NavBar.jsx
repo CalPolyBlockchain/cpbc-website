@@ -26,7 +26,6 @@ const NavBar = ({toggleTheme}) => {
   };
   const handleMouseLeave = (e) => {
     e.target.classList.remove('texter')
-
     setIsHover(false)
   };
 
