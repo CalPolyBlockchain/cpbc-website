@@ -13,7 +13,7 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div class="body" id={theme}>
-        <NavBar />
+        <NavBar toggleTheme={toggleTheme} />
         <About />
         <Projects />
         <Footer/>
