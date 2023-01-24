@@ -1,0 +1,37 @@
+#navbar {
+    transition: all 0.7s ease-in-out;
+    width: 100vw;
+
+}
+.calpolylogo{
+    transition: all 0.3s ease-in-out;
+}
+
+#dark .navbarOn { 
+    background-color: rgba(2, 21, 16, .9);
+    padding-top: 0px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+#dark .navbarOff { 
+    background-color: transparent;
+    padding-top: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0);
+}
+#dark .texter { 
+    color:#efc473;  ;
+}
+
+#light .texter { 
+    color:#efc473;  ;
+}
+#light .navbarOn { 
+    background-color: rgba(3, 30, 23, .95);
+    padding-top: 0px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+#light .navbarOff { 
+    background-color: transparent;
+    padding-top: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0);
+}
+

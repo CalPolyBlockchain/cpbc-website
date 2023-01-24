@@ -1,12 +1,36 @@
-import React from 'react'
+import React, { useState } from "react";
+import "./ProjectItem.css";
 
 const ProjectItem = (props) => {
-    
-  return (
-    <div class="w-[900px] m-2 md:w-[900px] lg:w-[900px] xl:w-[900px] 2xl:w[900px]">
-      <img class="rounded-2xl" src={props.img} alt=" of stuff" />
-    </div>
-  )
-}
+  const { index } = props;
+  const [scale, setScale] = useState(.95);
 
-export default ProjectItem
+  const handleMouseEnter = () => {
+    setScale(1);
+  }
+  const handleMouseLeave = () => {
+    setScale(.95);
+  }
+  const img_style = {
+    position: "absolute",
+    left:0,
+    top:0,
+    margin: "auto", 
+    transform: `translateX(${310 * index}px) scale(${scale})`
+  };
+
+  
+  return (
+    <div class="image-div">
+      <a href={props.url} target="_blank" rel="noreferrer" >
+      <img style={img_style} 
+            src={props.img} 
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+      alt=" of stuff" />
+      </a>
+    </div>
+  );
+};
+
+export default ProjectItem;

@@ -3,6 +3,8 @@ import NavBar from './components/NavBar/NavBar';
 import Projects from './components/Projects/Projects';
 import About from './components/About/About';
 import Socials from './components/Socials/Socials';
+import Footer from './components/Footer/Footer'
+
 export const ThemeContext = createContext(null)
 
 function App() {
@@ -13,11 +15,12 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div class="body" id={theme}>
-        <NavBar />
+        <NavBar toggleTheme={toggleTheme} />
         <About />
         <Socials />
 
         <Projects />
+        <Footer/>
       </div>
     </ThemeContext.Provider>
   );

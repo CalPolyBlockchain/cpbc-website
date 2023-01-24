@@ -1,0 +1,39 @@
+.slideshow-holder {
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.slideshow-wrapper{
+  width:100%;
+  transition: all 0.5s ease-in 0s;
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .square-animation {
+    animation: wipe-enter 1s 1;
+  }
+  .slide-in {
+    animation: slide 1s 1s 1;
+  }
+}
+@keyframes wipe-enter {
+	0% {
+		transform: scale(1, .025);
+	}
+	50% {
+		transform: scale(1, 1);
+	}
+}
+
+@keyframes slide {
+	0% {
+		transform: translateX(0px);
+	}
+	50% {
+		transform: translateX(-1400px);
+    
+	}
+}
