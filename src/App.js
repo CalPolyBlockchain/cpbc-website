@@ -2,7 +2,9 @@ import { createContext, useState } from 'react'
 import NavBar from './components/NavBar/NavBar';
 import Projects from './components/Projects/Projects';
 import About from './components/About/About';
+import Socials from './components/Socials/Socials';
 import Footer from './components/Footer/Footer'
+
 export const ThemeContext = createContext(null)
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <div class="body" id={theme}>
         <NavBar toggleTheme={toggleTheme} />
         <About />
+        <Socials />
+
         <Projects />
         <Footer/>
       </div>

@@ -1,3 +1,5 @@
+import { FaDiscord, FaTwitter } from 'react-icons/fa'
+
 export const hackathons = [
   {
     isFuture: true,
@@ -58,4 +60,19 @@ export const projects = [
     imgUrl: Mobius,
       link: "https://www.mobius.money/"
   },
+];
+
+
+
+export const socials = [
+  {
+    companyName: "DISCORD",
+    count: "209",
+    icon: <FaDiscord />
+  },
+  {
+    companyName: "TWITTER",
+    count: "300",
+    icon: <FaTwitter />
+  }
 ];
