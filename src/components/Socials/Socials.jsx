@@ -24,7 +24,10 @@ const Socials = () => {
 
    fetchDiscordData();
    fetchTwitterData();
+
   }, []);
+
+
 
   return (
     <div id="theme" className="banner  wedge-is-on-social ">

@@ -68,11 +68,13 @@ export const socials = [
   {
     companyName: "DISCORD",
     count: "209",
+    link: 'http://discord.gg/KtNtWd2akR',
     icon: <FaDiscord />
   },
   {
     companyName: "TWITTER",
     count: "300",
+    link: 'https://twitter.com/polyblockchain',
     icon: <FaTwitter />
   }
 ];
