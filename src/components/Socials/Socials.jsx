@@ -6,20 +6,9 @@ import axios from 'axios'
 
 
 const Socials = () => {
-
-
-
-  const userId = 1419372755514839041;
   const server = 'KtNtWd2akR' 
-  const twitter = `https://api.twitter.com/2/users/${userId}`;
-  const bearerToken =process.env.REACT_APP_BEARER_TOKEN;
-  const url1 = '/api'
   const discord = `https://discord.com/api/v9/invites/${server}?with_counts=true&with_expiration=true`
   
-
-const bodyParameters = {
-  'user.fields': "public_metrics"
-};
    const [discordFollowers, setDiscordFollowers] = useState(0);
    const [twitterFollowers, setTwitterFollowers] = useState(0);
 
@@ -30,7 +19,6 @@ const bodyParameters = {
     };
     const fetchTwitterData = async () => {
       const result = await axios.get('/api');
-      console.log(result)
       setTwitterFollowers(result.data.data.public_metrics.followers_count);
     };
 
