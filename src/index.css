@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #light {
-  background-color: #f3ebf6;
+  background-color: #fefefc;
 }
 
 #dark {
@@ -17,7 +17,12 @@
 #dark .text {
   color: #ffffff;
 }
-
+#light .banner {
+  background-color: #031e17;
+}
+#dark .banner {
+  background-color: #FFFBEB;
+}
 .text-big {
   font-weight: bold;
 }

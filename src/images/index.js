@@ -3,7 +3,7 @@ const Mobius = require("./projects/mobius.png");
 const Mustang = require("./projects/mustang-dao.png");
 const Seam = require("./projects/seam.png");
 
-export const projectImages = [ Mobius, Mustang, Seam ]
+export const projectImages = [ Mobius, Mustang, Seam, Mobius, Mustang ]
 
 const CPEng = require("./partners/CP_Engineering.jpg")
 const Decentral = require("./partners/DecentralCoast.jpg")

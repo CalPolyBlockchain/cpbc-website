@@ -1,8 +1,11 @@
 import { createContext, useState } from 'react'
 import NavBar from './components/NavBar/NavBar';
 import Projects from './components/Projects/Projects';
-import Partners from './components/Partners/Partners';
 import About from './components/About/About';
+import Socials from './components/Socials/Socials';
+import Partners from './components/Partners/Partners';
+import Footer from './components/Footer/Footer'
+
 export const ThemeContext = createContext(null)
 
 function App() {
@@ -13,10 +16,13 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div class="body" id={theme}>
-        <NavBar />
+        <NavBar toggleTheme={toggleTheme} />
         <About />
+        <Socials />
+
         <Projects />
         <Partners/>
+        <Footer/>
       </div>
     </ThemeContext.Provider>
   );
