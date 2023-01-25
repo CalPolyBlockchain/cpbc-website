@@ -17,12 +17,20 @@
 #dark .text {
   color: #ffffff;
 }
+#light .text-flip {
+  color: #ffffff;
+}
+
+#dark .text-flip {
+  color: #222222;
+}
 #light .banner {
   background-color: #031e17;
 }
 #dark .banner {
   background-color: #FFFBEB;
 }
+
 .text-big {
   font-weight: bold;
 }

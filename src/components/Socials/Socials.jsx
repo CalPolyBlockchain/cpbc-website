@@ -31,7 +31,7 @@ const Socials = () => {
 
   return (
     <div id="theme" className="banner  wedge-is-on-social ">
-        <div className="flex flex-col md:flex-row container-mid justify-between pt-[50px] pb-[50px] md:pt-[100px] md:pb-[100px]">
+        <div className="flex flex-col md:flex-row container-mid justify-between pt-[50px] pb-[50px] md:pt-[100px] md:pb-[100px] text-flip">
       {socials.map((element) => {
         return <SocialCard data={ element } twitter={twitterFollowers} discord={discordFollowers} />;
       })}
