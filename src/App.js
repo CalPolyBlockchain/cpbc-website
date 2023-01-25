@@ -3,6 +3,7 @@ import NavBar from './components/NavBar/NavBar';
 import Projects from './components/Projects/Projects';
 import About from './components/About/About';
 import Socials from './components/Socials/Socials';
+import Partners from './components/Partners/Partners';
 import Footer from './components/Footer/Footer'
 
 export const ThemeContext = createContext(null)
@@ -20,6 +21,7 @@ function App() {
         <Socials />
 
         <Projects />
+        <Partners/>
         <Footer/>
       </div>
     </ThemeContext.Provider>

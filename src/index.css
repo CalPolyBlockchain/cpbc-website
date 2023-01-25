@@ -5,12 +5,15 @@
 #light {
   background-color: #fefefc;
 }
+
 #dark {
   background-color: #031e17;
 }
+
 #light .text {
   color: #222222;
 }
+
 #dark .text {
   color: #ffffff;
 }
@@ -23,9 +26,11 @@
 .text-big {
   font-weight: bold;
 }
+
 .text-med {
   font-weight: 600;
 }
+
 .text-narrow {
   font-weight: 400;
 }
@@ -42,11 +47,13 @@ body {
   width: 90%;
   max-width: 1536px;
 }
+
 .container-mid {
   margin: auto;
   width: 100%;
   max-width: 1100px;
 }
+
 .container-nar {
   margin: auto;
   width: 100%;
@@ -59,11 +66,13 @@ body {
     width: 90%;
     max-width: 1024px;
   }
+
   .container-mid {
     margin: auto;
     width: 100%;
     max-width: 900px;
   }
+
   .container-nar {
     margin: auto;
     width: 100%;
@@ -77,11 +86,13 @@ body {
     width: 90%;
     max-width: 768px;
   }
+
   .container-mid {
     margin: auto;
     width: 100%;
     max-width: 768px;
   }
+
   .container-nar {
     margin: auto;
     width: 100%;
@@ -95,14 +106,23 @@ body {
     width: 90%;
     max-width: 480px;
   }
+
   .container-mid {
     margin: auto;
     width: 100%;
     max-width: 480px;
   }
+
   .container-nar {
     margin: auto;
     width: 100%;
     max-width: 480px;
   }
+}
+
+.background {
+  background-image: url("./images/partners/KennedyLibrary_Atrium.jpg");
+  background-size:     cover;                     
+  background-repeat:   no-repeat;
+  background-position: top center; 
 }
