@@ -5,6 +5,15 @@ const Seam = require("./projects/seam.png");
 
 export const projectImages = [ Mobius, Mustang, Seam, Mobius, Mustang ]
 
+const p1 = require("./team/p1.jpg");
+const p2 = require("./team/p2.jpg");
+const p3 = require("./team/p3.jpg");
+const p4 = require("./team/p4.jpg");
+
+export const teamNames = ["Bobby", "Sandra", "Suzie", "Awkland"]
+export const teamGroup = require("./team/group.jpg")
+export const teamImages = [p1, p2, p3, p4]
+
 const CPEng = require("./partners/CP_Engineering.jpg")
 const Decentral = require("./partners/DecentralCoast.jpg")
 const Orfalea = require("./partners/Orfalea.png")
