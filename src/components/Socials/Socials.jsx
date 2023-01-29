@@ -18,6 +18,7 @@ const Socials = () => {
     };
     const fetchTwitterData = async () => {
       const result = await axios.get('https://salty-falls-07506.herokuapp.com/api');
+      console.log(result)
       setTwitterFollowers(result.data.data.public_metrics.followers_count);
     };
 
