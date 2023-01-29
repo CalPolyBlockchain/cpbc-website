@@ -1,0 +1,14 @@
+.social-small {
+    transform: scale(100%);
+    transition: .2s ease-in-out;
+}
+
+#dark .social-small:hover {
+    transform: scale(98%);
+    color: var(--green-dark);
+}
+
+#light .social-small:hover {
+    transform: scale(98%);
+    color: var(--light-text);
+}

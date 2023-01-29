@@ -1,3 +1,37 @@
-.wedge-partners{
-    clip-path: polygon(0% 8%, 100% 0%, 100% 90%, 0 100%);
+#light .partner-background {
+  background-image: url("../../images/partners/atrium.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+#dark .partner-background {
+  background-image: url("../../images/partners/KennedyLibrary_Atrium.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.wedge-partners {
+  clip-path: polygon(0% 2%, 100% 0%, 100% 92%, 0 100%);
+}
+
+@media only screen and (max-width: 640px) {
+  .wedge-partners {
+    clip-path: polygon(0% 5%, 100% 0%, 100% 98%, 0 100%);
+  }
+}
+
+#light .partner-style {
+  height: 500px;
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(to top, #FCFBF8, var(--sand));
+}
+
+#dark .partner-style {
+  height: 500px;
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(to top, #020D2F, #03030C);
 }

@@ -1,17 +1,21 @@
 #light .date-box {
   border: 2px solid #222222;
 }
+
 #dark .date-box {
   border: 2px solid #ffffff;
 }
+
 #light .yellow-box {
   border: 2px solid #ffdb1c;
   border-radius: 1px;
 }
+
 #dark .yellow-box {
   border: 2px solid #ffdb1c;
   border-radius: 1px;
 }
+
 .animated-div {
   /* Initial styles */
   transition: all 0.5s ease-in-out;
@@ -21,30 +25,41 @@
   /* Animation styles */
   transform: translateX(5px);
 }
-.lefter{
-  left: -1rem/* -16px */;
+
+.lefter {
+  left: -1rem
+    /* -16px */
+  ;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1280px) {}
 
-}
-@media only screen and (max-width: 1024px) {
-}
+@media only screen and (max-width: 1024px) {}
+
 @media only screen and (max-width: 640px) {
   #light .yellow-box {
     border: 1px solid #ffdb1c;
     border-radius: 1px;
   }
+
   #dark .yellow-box {
     border: 1px solid #ffdb1c;
     border-radius: 1px;
   }
+
   .animating {
     /* Animation styles */
     transform: translateX(4px);
   }
-  .lefter{
-    left: -.7rem/* -16px */;
+
+  .lefter {
+    left: -.7rem
+      /* -16px */
+    ;
   }
 }
 
+[data-is-future="true"]{
+  border: 2px solid var(--orange-dark) !important;
+  color: var(--orange-dark) !important;
+}

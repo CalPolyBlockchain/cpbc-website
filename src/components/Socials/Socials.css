@@ -1,3 +1,9 @@
 .wedge-is-on-social {
-    clip-path: polygon(0% 0%, 100% 15%, 100% 100%, 0% 85%);
+  clip-path: polygon(0% 0%, 100% 15%, 100% 100%, 0% 85%);
+}
+
+@media only screen and (max-width: 640px) {
+  .wedge-is-on-social {
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
   }
+}

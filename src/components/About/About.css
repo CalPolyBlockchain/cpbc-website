@@ -1,97 +1,198 @@
-.contact-us{
-  transition: all 0.2s ease-in-out;
-  background-color:#031E17;
+#dark .about_bg {
+  background-image: url('../../images/hero/h1');
+  background-size: cover;
 }
-.contact-us:hover{
-  background-color:#F2A413;
-  color:#fff;
+
+#light .about_bg {
+  background-image: url('../../images/hero/h4');
+  background-size: cover;
+}
+
+#dark .border {
+  border: 1px dashed var(--sand);
+}
+
+#light .border {
+  border: 1px dashed var(--dark)
+}
+
+#dark .team-bg {
+  background-color: "transparent";
+}
+
+#light .team-bg {
+  background-color: #00282887;
+}
+
+.wedge-is-on {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
+}
+
+.hidden-mobile {
+  display: contents;
+}
+
+.hidden-desktop {
+  display: none;
+}
+
+/* about_text_box_meetings */
+.about_text_box {
+  box-sizing: border-box;
+  position: absolute;
+  width: 365px;
+  height: 143px;
+  left: 111px;
+  top: 97px;
+  border-radius: 10px;
+  z-index: 100;
+}
+
+.weekly_meetings_text {
+  height: 143px;
+  left: 131px;
+  top: 112px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1024px) {
+  #dark .about_bg {
+    background-image: url('../../images/hero/h1');
+    background-size: cover;
+    background-position: 50% 49%;
+    scale: 100%;
+  }
+
+  #light .about_bg {
+    background-image: url('../../images/hero/h4');
+    background-size: cover;
+    background-position: 50% 49%;
+    scale: 100%;
+  }
+
+  .hidden-mobile {
+    display: contents;
+  }
+
+  .hidden-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .hidden-mobile {
+    display: contents;
+  }
+
+  .hidden-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #dark .about_bg {
+    scale: 150%;
+  }
+
+  #light .about_bg {
+    background-position: 30% 10px;
+    scale: 150%;
+  }
+
+  .hidden-mobile {
+    display: none;
+  }
+
+  .hidden-desktop {
+    display: contents;
+  }
+
+  /* about_text_box_meetings */
+  #dark .about_text_box {
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    height: 143px;
+    left: 0;
+    top: 97px;
+    border: 1px dashed var(--light-text);
+    border-radius: 10px;
+    z-index: 100;
+  }
+
+  /* about_text_box_meetings */
+  #light .about_text_box {
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    height: 143px;
+    left: 0;
+    top: 97px;
+    border: 1px dashed var(--orange-dark);
+    border-radius: 10px;
+    z-index: 100;
+  }
+
+  #dark .weekly_meetings_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--light-text);
+  }
+
+  #light .weekly_meetings_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--orange-dark);
+  }
+}
+
+#light .contact-us {
+  transition: all 0.2s ease-in-out;
+  background-color: var(--dark);
+  border-color: transparent;
+  color: var(--light-text);
+}
+
+#light .contact-us:hover {
+  background-color: var(--orange-dark);
+  color: var(--light-text);
+  border-color: transparent;
+  box-shadow: 0px 2px rgb(214, 214, 214);
+}
+
+#dark .contact-us {
+  transition: all 0.2s ease-in-out;
+  background-color: var(--dark);
+  color: var(--light-text);
+
+}
+
+#dark .contact-us:hover {
+  background-color: var(--orange-dark);
+  color: var(--light-text);
   border-color: transparent;
   box-shadow: 0px 2px rgb(57, 57, 57);
 }
-.wedge-is-on {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
-  }
-
-  #dark .about_bg { 
-    background-image: url('../../images/hero/jeremy-bishop-zCFt2Rzcv_c-unsplash.jpg');
-    background-size: cover;
-    background-position: 50% 49%;;
-
-  }
-  #light .about_bg { 
-    background-image: url('../../images/hero/sixteen-miles-out-IDFJUVl0puM-unsplash.jpg');
-    background-size: cover;
-    background-position: 50% 39%;;
-  }
-  #light button{ 
-    color:#fff!important;
-  }
-
-
-
-
-  .hidden-mobile{
-    display:contents;
-  }
-  .hidden-desktop{
-    display:none;
-  }
-
-
-  @media only screen and (max-width: 1280px) {
-    .hidden-mobile{
-      display:contents;
-    }
-    .hidden-desktop{
-      display:none;
-    }
-  }
-  
-  @media only screen and (max-width: 1024px) {
-    
-    #dark .about_bg { 
-      background-image: url('../../images/hero/jeremy-bishop-zCFt2Rzcv_c-unsplash.jpg');
-      background-size: cover;
-      background-position: 50% 49%;
-      scale: 100%;
-  
-    }
-    #light .about_bg { 
-      background-image: url('../../images/hero/sixteen-miles-out-IDFJUVl0puM-unsplash.jpg');
-      background-size: cover;
-      background-position: 50% 49%;
-      scale: 100%;
-    }
-  
-    .hidden-mobile{
-      display:contents;
-    }
-    .hidden-desktop{
-      display:none;
-    }
-  }
-  
-  @media only screen and (max-width: 640px) {
-    #dark .about_bg { 
-      background-image: url('../../images/hero/jeremy-bishop-zCFt2Rzcv_c-unsplash.jpg');
-      background-size: cover;
-      background-position: 50% 49%;
-      scale: 150%;
-  
-    }
-    #light .about_bg { 
-      background-image: url('../../images/hero/sixteen-miles-out-IDFJUVl0puM-unsplash.jpg');
-      background-size: cover;
-      background-position: 50% 10px;
-      scale: 150%;
-  
-    }
-    .hidden-mobile{
-      display: none;
-    }
-    .hidden-desktop{
-      display:contents;
-    }
-    
-  }
-  

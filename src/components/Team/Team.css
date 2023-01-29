@@ -1,26 +1,32 @@
-.wedge-team{
-    clip-path: polygon(0% 8%, 100% 0%, 100% 90%, 0 100%);
-}
-.image-container {
-    width: 25%; 
-    padding: 20px; 
-  }
-.square-rounded-image{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 10%;
+.wedge-team {
+  clip-path: polygon(0% 8%, 100% 0%, 100% 92%, 0 100%);
 }
 
-.contact-team{
-    transition: all 0.2s ease-in-out;
-    background-color:transparent;
-    color:#031E17;
+@media only screen and (max-width: 640px) {
+  .wedge-team {
+    clip-path: polygon(0% 2%, 100% 0%, 100% 98%, 0 100%);
   }
-  .contact-team:hover{
-    background-color:#031E17;
-    color:#fff!important;
-    border-color: transparent;
-    box-shadow: 0px 2px rgb(57, 57, 57);
-  }
+}
+
+.image-container {
+  width: 25%;
+  padding: 20px;
+}
+
+.square-rounded-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10%;
+}
+
+
+
+#light .team {
+  background-color: var(--sand)
+}
+
+#dark .team {
+  background-color: var(--green-dark)
+}
