@@ -26,7 +26,7 @@ const ModalContent = ({ setShowModal }) => {
       setIsSubmitting(true);
       try {
         const response = await fetch(
-          `/api/sheet?` +
+          `https://salty-falls-07506.herokuapp.com/api/sheet?` +
             new URLSearchParams({
               name,
               email,
