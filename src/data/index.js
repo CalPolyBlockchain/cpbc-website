@@ -98,9 +98,9 @@ export const hackathons = [
 
 /********************************** TEAM DATA **********************************/
 const p1 = require('../images/team/5.jpg');
-const p2 = require('../images/team/3.jpg');
-const p3 = require('../images/team/1.jpg');
-const p4 = require('../images/team/2.jpg');
+const p2 = require('../images/team/1.jpg');
+const p3 = require('../images/team/2.jpg');
+const p4 = require('../images/team/3.jpg');
 const p5 = require('../images/team/4.jpg');
 
 
