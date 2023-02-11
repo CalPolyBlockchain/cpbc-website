@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 
 import './Team.css';
-import { team, teamGroup } from '../../data/index';
+import { team, teamGroupA, teamGroupB } from '../../data/index';
 
 const Team = () => {
   return (
@@ -24,7 +24,7 @@ const Team = () => {
               {team.map((element, index) => {
                 let { img, name, link } = element;
                 return (
-                  <div className=' w-[24%] md:w-[25%] md:p-[20px] p-0'>
+                  <div className='  w-[24%] md:w-[25%] md:p-[10px] p-2'>
                     <a href={link} target='_blank' rel='noreferrer'>
                       <img
                         src={img}
@@ -40,12 +40,23 @@ const Team = () => {
               })}
             </div>
             <div class='flex flex-col md:flex-row pt-2 pb-10 md:pt-10 md:pb-10 order-1 md:order-2 w-full'>
-              <div className='w-full md:w-1/2 pl-2 pr-2 md:pl-10 md:pr-0 '>
-                <img
-                  src={teamGroup}
+              <div className='w-full md:w-1/2'>
+
+              <div className='w-full md:w-full pl-2 pr-2 md:pl-10 md:pr-0 '>
+
+              <img
+                  src={teamGroupB}
                   alt='example'
                   className='square-rounded-image rounded-2xl '
                 />
+                </div>
+                <div className='w-full md:w-full pt-5 pl-2 pr-2 md:pl-10 md:pr-0 '>
+                <img
+                  src={teamGroupA}
+                  alt='example'
+                  className='square-rounded-image rounded-2xl '
+                />
+              </div>
               </div>
               <div
                 style={{ margin: 'auto' }}
@@ -64,7 +75,7 @@ const Team = () => {
                 <div className='flex flex-col md:flex-row md:justify-evenly '>
                   <button
                     className='button-dark text-flip font-bold text-[18px] py-3 px-7  border-2 rounded-md  md:py-2 md:px-4 md:border-1 border-black md:text-[12px] lg:text-[18px] lg:py-3 lg:px-7 mb-2 md:mb-0'
-                    onClick={() => window.open('google.com')}
+                    onClick={() => window.open('https://paragraph.xyz/@polyblockchain')}
                   >
                     Mirror Blog
                   </button>

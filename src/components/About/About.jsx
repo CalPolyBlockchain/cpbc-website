@@ -64,7 +64,7 @@ const About = () => {
             </div>
             <div className='flex flex-col justify-center w-max '>
               <div className='w-max text-[18px] font-semibold md:text-[18px] lg:text-[36px] md:ml-10 md:mr-32'>
-                Blockchain at Cal Poly
+                Cal Poly Blockchain
               </div>
               <div className='w-max text-[14px] font-light md:mb-5 md:text-[18px] lg:text-[36px] md:ml-10 md:mr-32'>
                 Education | Research | Development

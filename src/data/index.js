@@ -31,7 +31,7 @@ export const socials = [
 const MoveStudio = require('../images/projects/move-studio.jpg');
 const Mobius = require('../images/projects/mobius.png');
 const Mustang = require('../images/projects/mustang-dao.png');
-const Seam = require('../images/projects/seam.png');
+const Seam = require('../images/projects/seam.jpg');
 
 export const projects = [
   
@@ -43,7 +43,7 @@ export const projects = [
   {
     projectName: 'SEAM',
     imgUrl: Seam,
-    link: 'https://ethcc.io/',
+    link: 'https://www.linkedin.com/company/seam-money/about/',
   },
   {
     projectName: 'Mobius Money',
@@ -97,19 +97,24 @@ export const hackathons = [
 ];
 
 /********************************** TEAM DATA **********************************/
-const p1 = require('../images/team/p1.jpg');
-const p2 = require('../images//team/p2.jpg');
-const p3 = require('../images//team/p3.jpg');
-const p4 = require('../images//team/p4.jpg');
+const p1 = require('../images/team/5.jpg');
+const p2 = require('../images/team/3.jpg');
+const p3 = require('../images/team/1.jpg');
+const p4 = require('../images/team/2.jpg');
+const p5 = require('../images/team/4.jpg');
+
 
 export const team = [
-  { img: p1, name: 'Bobby', link: 'http://www.yahoo.com' },
-  { img: p2, name: 'Sandra', link: '' },
-  { img: p3, name: 'Suzie', link: '' },
-  { img: p4, name: 'Awkland', link: '' },
+  { img: p1, name: 'Max', link: 'https://www.linkedin.com/in/maxwellmohammadi/' },
+  { img: p4, name: 'Jack', link: 'https://www.linkedin.com/in/jack-kelly-86099a19b/' },
+  { img: p2, name: 'Dan', link: '' },
+  { img: p3, name: 'Evan', link: '' },
+  { img: p5, name: 'Travis', link: 'https://www.linkedin.com/in/travis-hawley-150a5420a/' },
 ];
 
-export const teamGroup = require('../images/team/group.jpg');
+export const teamGroupA = require('../images/team/groupa.jpg');
+export const teamGroupB = require('../images/team/groupb.jpg');
+
 
 /********************************** PARTNERS DATA **********************************/
 const CPEng = require('../images/partners/CP_Engineering.jpg');
