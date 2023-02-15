@@ -58,7 +58,16 @@ export const projects = [
 ];
 
 /********************************** HACKATHONS DATA **********************************/
+const Griz = require('../images/hackathons/griz.jpg');
+
 export const hackathons = [
+  {
+    isFuture: true,
+    eventName: 'Solana Grizzlython 2023',
+    startDate: 'Feb 02, 2023',
+    endDate: 'Mar 14, 2023',
+    imgUrl:Griz,
+  },
   {
     isFuture: false,
     eventName: 'ETH San Francisco 2022',
