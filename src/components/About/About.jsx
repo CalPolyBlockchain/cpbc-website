@@ -38,12 +38,12 @@ const About = () => {
       <div className='relative w-[90%] m-auto'>
         <div className='absolute about_text_box border'>
           <div className='weekly_meetings_text text'>
-            <p className='mt-2 text-[14px]'>{quarter}</p>
+            <p className='mt-2 text-[16px]'>{quarter}</p>
 
-            <p className='text-[18px] font-bold'>{heading}</p>
+            <p className='text-[20px] font-bold'>{heading}</p>
 
-            <p className='text-[12px]'>{dates}</p>
-            <p className='text-[12px]'>{location}</p>
+            <p className='text-[14px]'>{dates}</p>
+            <p className='text-[14px]'>{location}</p>
           </div>
         </div>
       </div>

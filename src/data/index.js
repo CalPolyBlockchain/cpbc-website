@@ -113,10 +113,10 @@ const p4 = require('../images/team/3.jpg');
 const p5 = require('../images/team/4.jpg');
 
 
-export const team = [
-  { img: p1, name: 'Max', link: 'https://www.linkedin.com/in/maxwellmohammadi/' },
-  { img: p4, name: 'Jack', link: 'https://www.linkedin.com/in/jack-kelly-86099a19b/' },
-  { img: p2, name: 'Dan', link: '' },
+export const team = [https://www.linkedin.com/in/arian-housh/
+  { img: p6, name: 'Max', link: 'https://www.linkedin.com/in/wesleyslin/' },
+  { img: p4, name: 'Arian', link: 'https://www.linkedin.com/in/arian-housh/' },
+  { img: p2, name: 'Ahmik', link: 'https://www.linkedin.com/in/ahmikchenyang/' },
   { img: p3, name: 'Evan', link: '' },
   { img: p5, name: 'Travis', link: 'https://www.linkedin.com/in/travis-hawley-150a5420a/' },
 ];
