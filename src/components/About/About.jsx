@@ -70,12 +70,12 @@ const About = () => {
                 Education | Research | Development
               </div>
               <div className='hidden-mobile'>
-                <div className=' text-[12px] font-regular mb-4 md:text-[12px] lg:text-[18px] md:ml-10 md:mr-10 lg:mr-80 text-right'>
+                <div className=' text-[12px] font-regular mb-4 md:text-[12px] lg:text-[18px] md:ml-10 md:mr-10 lg:mr-80 text-left'>
                   Our education team develops in-house content and sources guest
                   speakers from top protocols, such as Ethereum, Chainlink, The
                   Graph, Celo, Near, DyDx, and more!
                 </div>
-                <div className=' text-[12px] font-regular md:text-[12px]  lg:text-[18px] md:ml-10 md:mr-10 lg:mr-80 text-right'>
+                <div className=' text-[12px] font-regular md:text-[12px]  lg:text-[18px] md:ml-10 md:mr-10 lg:mr-80 text-left'>
                   Topics range from consensus and DeFi primitives, to being able
                   to spin up your own decentralized exchange! We show students
                   and faculty how easy it is to plug into the DeFi ecosystem.
