@@ -34,9 +34,8 @@ const About = () => {
           </div>
         </Modal>
       )}
-
       <div className='relative w-[90%] m-auto'>
-        <div className='absolute about_text_box border'>
+        <div className='absolute about_text_box border border-solid flex flex-col items-center justify-center'>
           <div className='weekly_meetings_text text'>
             <p className='mt-2 text-[16px]'>{quarter}</p>
 

@@ -117,8 +117,7 @@ export const team = [
   { img: p6, name: 'Wesley', link: 'https://www.linkedin.com/in/wesleyslin/' },
   { img: p7, name: 'Arian', link: 'https://www.linkedin.com/in/arian-housh/' },
   { img: p8, name: 'Ahmik', link: 'https://www.linkedin.com/in/ahmikchenyang/' },
-  { img: p3, name: 'Evan', link: '' },
-  { img: p5, name: 'Travis', link: 'https://www.linkedin.com/in/travis-hawley-150a5420a/' },
+  { img: p5, name: 'Max', link: 'https://www.linkedin.com/in/maxwellmohammadi/' },
 ];
 
 export const teamGroupA = require('../images/team/groupa.jpg');
