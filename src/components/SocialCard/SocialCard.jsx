@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import './SocialCard.css';
 const SocialCard = (props) => {
   const { companyName, link, icon } = props.data;
-  const discordFollowers = props.discord;
-  const twitterFollowers = props.twitter;
+  const discordFollowers = 500;
+  const twitterFollowers = 600;
   const currentCount =
     companyName.toLowerCase() === 'twitter'
       ? twitterFollowers
