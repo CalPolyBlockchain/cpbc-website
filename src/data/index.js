@@ -114,9 +114,9 @@ const p5 = require('../images/team/4.jpg');
 
 
 export const team = [https://www.linkedin.com/in/arian-housh/
-  { img: p6, name: 'Max', link: 'https://www.linkedin.com/in/wesleyslin/' },
-  { img: p4, name: 'Arian', link: 'https://www.linkedin.com/in/arian-housh/' },
-  { img: p2, name: 'Ahmik', link: 'https://www.linkedin.com/in/ahmikchenyang/' },
+  { img: p6, name: 'Wesley', link: 'https://www.linkedin.com/in/wesleyslin/' },
+  { img: p7, name: 'Arian', link: 'https://www.linkedin.com/in/arian-housh/' },
+  { img: p8, name: 'Ahmik', link: 'https://www.linkedin.com/in/ahmikchenyang/' },
   { img: p3, name: 'Evan', link: '' },
   { img: p5, name: 'Travis', link: 'https://www.linkedin.com/in/travis-hawley-150a5420a/' },
 ];
