@@ -5,10 +5,10 @@ export const logo = require('../images/logos/cp2.png');
 const morro_night1 = require('../images/hero/h1');
 export const projectHero = [morro_night1];
 export const cpbc_logo = require('../images/logos/design_one2s2.png');
-export const quarter = 'Winter Quarter 2023';
+export const quarter = 'Spring Quarter 2024';
 export const heading = 'Weekly Meetings';
-export const dates = 'Thursdays: 11:00am - 12:00am';
-export const location = 'Room 409 Frank E Piling';
+export const dates = 'Fridays: 4:10pm - 5:00pm';
+export const location = 'Frost 181-102';
 export const learnMoreLink = 'https://twitter.com/polyblockchain';
 
 /********************************** SOCIALS DATA **********************************/
