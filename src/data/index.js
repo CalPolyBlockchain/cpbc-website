@@ -31,10 +31,10 @@ export const socials = [
 const MoveStudio = require('../images/projects/move-studio.jpg');
 const Mobius = require('../images/projects/mobius.png');
 const Mustang = require('../images/projects/mustang-dao.png');
-const Seam = require('../images/projects/seam.jpg');
+const Seam = require('../images/projects/seam.png');
 
 export const projects = [
-  
+
   {
     projectName: 'Move Studio IDE',
     imgUrl: MoveStudio,
@@ -66,7 +66,7 @@ export const hackathons = [
     eventName: 'Solana Grizzlython 2023',
     startDate: 'Feb 02, 2023',
     endDate: 'Mar 14, 2023',
-    imgUrl:Griz,
+    imgUrl: Griz,
   },
   {
     isFuture: false,
