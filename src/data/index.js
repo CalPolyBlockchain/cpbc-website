@@ -106,19 +106,18 @@ export const hackathons = [
 ];
 
 /********************************** TEAM DATA **********************************/
-const p1 = require('../images/team/5.jpg');
-const p2 = require('../images/team/1.jpg');
-const p3 = require('../images/team/2.jpg');
-const p4 = require('../images/team/3.jpg');
-const p5 = require('../images/team/4.jpg');
+const p6 = require('../images/team/6.jpg');
+const p7 = require('../images/team/7.jpg');
+const p8 = require('../images/team/8.jpg');
+const p3 = require('../images/team/3.jpg');
+const p5 = require('../images/team/5.jpg');
 
 
 export const team = [
-  { img: p1, name: 'Max', link: 'https://www.linkedin.com/in/maxwellmohammadi/' },
-  { img: p4, name: 'Jack', link: 'https://www.linkedin.com/in/jack-kelly-86099a19b/' },
-  { img: p2, name: 'Dan', link: '' },
-  { img: p3, name: 'Evan', link: '' },
-  { img: p5, name: 'Travis', link: 'https://www.linkedin.com/in/travis-hawley-150a5420a/' },
+  { img: p6, name: 'Wesley', link: 'https://www.linkedin.com/in/wesleyslin/' },
+  { img: p7, name: 'Arian', link: 'https://www.linkedin.com/in/arian-housh/' },
+  { img: p8, name: 'Ahmik', link: 'https://www.linkedin.com/in/ahmikchenyang/' },
+  { img: p5, name: 'Max', link: 'https://www.linkedin.com/in/maxwellmohammadi/' },
 ];
 
 export const teamGroupA = require('../images/team/groupa.jpg');
