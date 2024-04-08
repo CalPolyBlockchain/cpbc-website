@@ -71,7 +71,7 @@ const About = () => {
               <div className='hidden-mobile'>
                 <div className=' text-[12px] font-regular mb-4 md:text-[12px] lg:text-[18px] md:ml-10 md:mr-10 lg:mr-80 text-left'>
                   Our education team develops in-house content and sources guest
-                  speakers from top protocols, such as Ethereum, Chainlink, The
+                  speakers from top protocols, such as Ethereum, Chainlink, Origin, The
                   Graph, Celo, Near, DyDx, and more!
                 </div>
                 <div className=' text-[12px] font-regular md:text-[12px]  lg:text-[18px] md:ml-10 md:mr-10 lg:mr-80 text-left'>
@@ -86,7 +86,7 @@ const About = () => {
 
         <div className=' text-[12px] font-regular mb-4 hidden-desktop'>
           Our education team develops in-house content and sources guest
-          speakers from top protocols, such as Ethereum, Chainlink, The Graph,
+          speakers from top protocols, such as Ethereum, Chainlink, Origin, The Graph,
           Celo, Near, DyDx, and more!
         </div>
         <div className=' text-[12px] font-regular hidden-desktop'>

@@ -58,15 +58,15 @@ export const projects = [
 ];
 
 /********************************** HACKATHONS DATA **********************************/
-const Griz = require('../images/hackathons/griz.jpg');
+const Token2049 = require('../images/hackathons/Token49.jpeg');
 
 export const hackathons = [
   {
     isFuture: true,
-    eventName: 'Solana Grizzlython 2023',
-    startDate: 'Feb 02, 2023',
-    endDate: 'Mar 14, 2023',
-    imgUrl:Griz,
+    eventName: 'Token2049 Dubai',
+    startDate: 'April 18, 2024',
+    endDate: 'April 19, 2024',
+    imgUrl:Token2049,
   },
   {
     isFuture: false,
