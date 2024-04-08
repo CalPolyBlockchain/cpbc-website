@@ -66,7 +66,7 @@ export const hackathons = [
     eventName: 'Token2049 Dubai',
     startDate: 'April 18, 2024',
     endDate: 'April 19, 2024',
-    imgUrl:Token2049,
+    imgUrl: Token2049,
   },
   {
     isFuture: false,
