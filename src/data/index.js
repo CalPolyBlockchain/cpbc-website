@@ -70,12 +70,12 @@ export const hackathons = [
   },
   {
     isFuture: false,
-    eventName: 'ETH San Francisco 2022',
-    startDate: 'Nov 04, 2022',
-    endDate: 'Nov 06, 2022',
+    eventName: 'MIT Bitcoin Hackathon: Scaling Up',
+    startDate: 'April 19, 2024',
+    endDate: 'April 21, 2024',
     imgUrl:
       'https://storage.googleapis.com/ethglobal-api-production/events/441gg/logo/1653491644559_sf-logo.jpg',
-    link: 'https://sf.ethglobal.com/',
+    link: 'https://mitbitcoin.devpost.com/?ref_content=online-hackathons&ref_feature=challenge&ref_medium=blockchain-channel',
   },
   {
     isFuture: false,
