@@ -23,7 +23,7 @@ const Socials = () => {
     };
 
     fetchDiscordData();
-    fetchTwitterData();
+    //fetchTwitterData();
   }, []);
 
   return (
