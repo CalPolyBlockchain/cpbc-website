@@ -19,12 +19,12 @@ const Team = () => {
           <div className='flex flex-col pl-2 pr-2 md:flex-col border-2 md:border-2 border-black rounded-2xl team-bg text-flip'>
             <div
               id='team-images'
-              class='flex wrap justify-between md:pt-10 pb-10 md:pl-5 md:pr-5 order-2 md:order-1'
+              class='flex flex-wrap justify-center gap-x-8 md:pt-10 pb-10 md:pl-5 md:pr-5 order-2 md:order-1'
             >
               {team.map((element, index) => {
                 let { img, name, link } = element;
                 return (
-                  <div className='  w-[24%] md:w-[25%] md:p-[10px] p-2'>
+                  <div className='w-[24%] md:w-[25%] md:p-[10px] p-2'>
                     <a href={link} target='_blank' rel='noreferrer'>
                       <img
                         src={img}
@@ -34,6 +34,9 @@ const Team = () => {
                       <h2 className='text-center text-[12px] md:text-[18px] pt-2 font-regular '>
                         {name}
                       </h2>
+                      <div className='text-center text-[11px] md:text-[15px] text-gray-500 font-light'>
+                        {element.role}
+                      </div>
                     </a>
                   </div>
                 );

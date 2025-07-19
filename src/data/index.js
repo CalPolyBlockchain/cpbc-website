@@ -5,9 +5,9 @@ export const logo = require('../images/logos/cp2.png');
 const morro_night1 = require('../images/hero/h1');
 export const projectHero = [morro_night1];
 export const cpbc_logo = require('../images/logos/design_one2s2.png');
-export const quarter = 'Spring Quarter 2024';
+export const quarter = 'Fall Quarter 2025';
 export const heading = 'Weekly Meetings';
-export const dates = 'Fridays: 4:10pm - 5:00pm';
+export const dates = 'Tuesdays: 6:10pm - 5:00pm';
 export const location = 'Frost 181-102';
 export const learnMoreLink = 'https://twitter.com/polyblockchain';
 
@@ -58,7 +58,7 @@ export const projects = [
 ];
 
 /********************************** HACKATHONS DATA **********************************/
-const Token2049 = require('../images/hackathons/Token49.jpeg');
+const Token2049 = require('../images/hackathons/Token2049.jpeg');
 
 export const hackathons = [
   {
@@ -106,18 +106,18 @@ export const hackathons = [
 ];
 
 /********************************** TEAM DATA **********************************/
-const p6 = require('../images/team/6.jpg');
-const p7 = require('../images/team/7.jpg');
+const p6 = require('../images/team/LiamMcKeown.jpg');
+const p7 = require('../images/team/Bart.jpg');
 const p8 = require('../images/team/8.jpg');
 const p3 = require('../images/team/3.jpg');
 const p5 = require('../images/team/5.jpg');
 
 
 export const team = [
-  { img: p6, name: 'Wesley', link: 'https://www.linkedin.com/in/wesleyslin/' },
-  { img: p7, name: 'Arian', link: 'https://www.linkedin.com/in/arian-housh/' },
-  { img: p8, name: 'Ahmik', link: 'https://www.linkedin.com/in/ahmikchenyang/' },
-  { img: p5, name: 'Max', link: 'https://www.linkedin.com/in/maxwellmohammadi/' },
+  { img: p6, name: 'Liam McKeown', role: 'President', link: 'https://www.linkedin.com/in/liam-mckeown38/' },
+  { img: p7, name: 'Hunter Barthel', role: 'Head of Finance', link: 'https://www.linkedin.com/in/hunter-barthel-292368237/' },
+//  { img: p8, name: 'Ahmik', link: 'https://www.linkedin.com/in/ahmikchenyang/' },
+//  { img: p5, name: 'Max', link: 'https://www.linkedin.com/in/maxwellmohammadi/' },
 ];
 
 export const teamGroupA = require('../images/team/groupa.jpg');
