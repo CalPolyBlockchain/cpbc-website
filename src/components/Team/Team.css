@@ -22,8 +22,8 @@
 }
 
 .accelerate-image {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 200px; /* Fixed height to compress the image */
   object-fit: cover;
   object-position: center;
   border-radius: 10%;
@@ -31,8 +31,8 @@
 }
 
 .alumni-image {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 200px; /* Fixed height to compress the image */
   object-fit: cover;
   object-position: center;
   border-radius: 10%;
