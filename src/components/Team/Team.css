@@ -22,12 +22,11 @@
 }
 
 .team-group-image {
-  width: 90%; /* In between 100% and 80% */
-  height: 180px; /* In between 200px and 160px */
+  width: 100%; /* Back to full width */
+  height: 180px; /* Fixed height to control tallness */
   object-fit: cover;
   object-position: center;
   border-radius: 10%;
-  margin: 0 auto; /* Center the images */
 }
 
 
