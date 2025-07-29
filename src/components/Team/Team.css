@@ -21,6 +21,14 @@
   border-radius: 10%;
 }
 
+.team-group-image {
+  width: 100%;
+  height: 200px; /* Fixed height - adjust this value */
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10%;
+}
+
 
 
 #light .team {
