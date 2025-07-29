@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c47e79d5.css",
+    "main.js": "/static/js/main.55506f07.js",
+    "static/media/atrium.jpg": "/static/media/atrium.84fe5bf2e1449e836e86.jpg",
+    "static/media/KennedyLibrary_Atrium.jpg": "/static/media/KennedyLibrary_Atrium.d0ffbb7729c23f08b9cb.jpg",
+    "static/media/seam.png": "/static/media/seam.312fc590897a34b35d44.png",
+    "static/media/h4": "/static/media/h4.0eb078c9af46ce6a3147",
+    "static/media/h1": "/static/media/h1.15c5d52f189bd08bf7c7",
+    "static/media/groupa.jpg": "/static/media/groupa.e8c47186fc4387eefc35.jpg",
+    "static/media/groupb.jpg": "/static/media/groupb.1b032a5e30c00543162e.jpg",
+    "static/media/mobius.png": "/static/media/mobius.50bdb22ecebe94c0ac07.png",
+    "static/media/mustang-dao.png": "/static/media/mustang-dao.e4be1c48f750c1507f11.png",
+    "static/media/design_one2s2.png": "/static/media/design_one2s2.2f2516021477c5da8835.png",
+    "static/media/3.jpg": "/static/media/3.3a96fba59075f17b8930.jpg",
+    "static/media/Bart.jpg": "/static/media/Bart.9bb04504457944fc6516.jpg",
+    "static/media/move-studio.jpg": "/static/media/move-studio.8755a6de4bec4c702f1b.jpg",
+    "static/media/5.jpg": "/static/media/5.febb5851ab8cbca9b94c.jpg",
+    "static/media/LiamMcKeown.jpg": "/static/media/LiamMcKeown.1a069fe43f7d42936058.jpg",
+    "static/media/8.jpg": "/static/media/8.5043ff67ef65ba41c70f.jpg",
+    "static/media/Orfalea.png": "/static/media/Orfalea.e640b9a5d396d8e5c803.png",
+    "static/media/cp2.png": "/static/media/cp2.477622cc61977f133473.png",
+    "static/media/DecentralCoast.jpg": "/static/media/DecentralCoast.5f9fcb7e4c5bdffcb393.jpg",
+    "static/media/Token2049.jpeg": "/static/media/Token2049.c185114a7e3831f25107.jpeg",
+    "index.html": "/index.html",
+    "main.c47e79d5.css.map": "/static/css/main.c47e79d5.css.map",
+    "main.55506f07.js.map": "/static/js/main.55506f07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c47e79d5.css",
+    "static/js/main.55506f07.js"
+  ]
+}

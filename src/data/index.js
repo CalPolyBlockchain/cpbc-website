@@ -1,10 +1,10 @@
 import { FaDiscord, FaTwitter } from 'react-icons/fa';
 
 /********************************** ABOUT DATA **********************************/
-export const logo = require('../images/logos/cp2.png');
+export const logo = require('../images/logos/NewCPBC.png');
 const morro_night1 = require('../images/hero/h1');
 export const projectHero = [morro_night1];
-export const cpbc_logo = require('../images/logos/design_one2s2.png');
+export const cpbc_logo = require('../images/logos/NewCPBC.png');
 export const quarter = 'Fall Quarter 2025';
 export const heading = 'Weekly Meetings';
 export const dates = 'Tuesdays: 6:10pm - 5:00pm';
@@ -107,7 +107,7 @@ export const hackathons = [
 
 /********************************** TEAM DATA **********************************/
 const p6 = require('../images/team/LiamMcKeown.jpg');
-const p7 = require('../images/team/Bart.jpg');
+const p7 = require('../images/team/Zac.JPG');
 const p8 = require('../images/team/8.jpg');
 const p3 = require('../images/team/3.jpg');
 const p5 = require('../images/team/5.jpg');
@@ -115,13 +115,11 @@ const p5 = require('../images/team/5.jpg');
 
 export const team = [
   { img: p6, name: 'Liam McKeown', role: 'President', link: 'https://www.linkedin.com/in/liam-mckeown38/' },
-  { img: p7, name: 'Hunter Barthel', role: 'Head of Finance', link: 'https://www.linkedin.com/in/hunter-barthel-292368237/' },
-//  { img: p8, name: 'Ahmik', link: 'https://www.linkedin.com/in/ahmikchenyang/' },
-//  { img: p5, name: 'Max', link: 'https://www.linkedin.com/in/maxwellmohammadi/' },
+  { img: p7, name: 'Zac Caro', role: 'Head of Research', link: 'https://www.linkedin.com/in/zacbehcaro?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYzqjoPLsRB%2BQ47kF7w8y5Q%3D%3D' },
 ];
 
-export const teamGroupA = require('../images/team/groupa.jpg');
-export const teamGroupB = require('../images/team/groupb.jpg');
+export const teamGroupA = require('../images/team/Accelerate.jpeg');
+export const teamGroupB = require('../images/team/Alumni.jpeg');
 
 
 /********************************** PARTNERS DATA **********************************/
