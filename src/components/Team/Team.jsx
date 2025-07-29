@@ -57,7 +57,7 @@ const Team = () => {
                 <img
                   src={teamGroupA}
                   alt='example'
-                  className='square-rounded-image rounded-2xl '
+                  className='accelerate-image rounded-2xl '
                 />
               </div>
               </div>

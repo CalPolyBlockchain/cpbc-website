@@ -21,6 +21,15 @@
   border-radius: 10%;
 }
 
+.accelerate-image {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10%;
+  margin: 0 auto;
+}
+
 
 
 #light .team {
