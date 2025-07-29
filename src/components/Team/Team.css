@@ -23,7 +23,7 @@
 
 .accelerate-image {
   width: 90%;
-  height: 200px; /* Fixed height to compress the image */
+  height: 15vh; /* Viewport height - adapts to screen size */
   object-fit: cover;
   object-position: center;
   border-radius: 10%;
@@ -32,7 +32,7 @@
 
 .alumni-image {
   width: 90%;
-  height: 200px; /* Fixed height to compress the image */
+  height: 15vh; /* Viewport height - adapts to screen size */
   object-fit: cover;
   object-position: center;
   border-radius: 10%;
