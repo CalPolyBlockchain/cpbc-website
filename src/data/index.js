@@ -1,10 +1,10 @@
 import { FaDiscord, FaTwitter } from 'react-icons/fa';
 
 /********************************** ABOUT DATA **********************************/
-export const logo = require('../images/logos/NewCPBC.png');
+export const logo = require('../images/logos/CPBC_transparent.png');
 const morro_night1 = require('../images/hero/h1');
 export const projectHero = [morro_night1];
-export const cpbc_logo = require('../images/logos/NewCPBC.png');
+export const cpbc_logo = require('../images/logos/CPBC_transparent.png');
 export const quarter = 'Fall Quarter 2025';
 export const heading = 'Weekly Meetings';
 export const dates = 'Tuesdays: 6:10pm - 5:00pm';
