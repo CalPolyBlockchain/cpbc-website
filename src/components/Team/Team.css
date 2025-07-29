@@ -37,6 +37,7 @@
   object-fit: cover;
   object-position: center;
   border-radius: 10%;
+  margin: 0 auto; /* Center the image */
   display: block; /* Ensure proper alignment */
 }
 
