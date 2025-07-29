@@ -50,14 +50,14 @@ const Team = () => {
               <img
                   src={teamGroupB}
                   alt='example'
-                  className='team-group-image rounded-2xl '
+                  className='square-rounded-image rounded-2xl '
                 />
                 </div>
                 <div className='w-full md:w-full pt-5 pl-2 pr-2 md:pl-10 md:pr-0 '>
                 <img
                   src={teamGroupA}
                   alt='example'
-                  className='team-group-image rounded-2xl '
+                  className='square-rounded-image rounded-2xl '
                 />
               </div>
               </div>

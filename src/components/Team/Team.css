@@ -21,14 +21,6 @@
   border-radius: 10%;
 }
 
-.team-group-image {
-  width: 100%; /* Back to full width */
-  height: 180px; /* Fixed height to control tallness */
-  object-fit: cover;
-  object-position: center;
-  border-radius: 10%;
-}
-
 
 
 #light .team {
