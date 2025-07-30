@@ -71,6 +71,19 @@
   background-color: var(--sand) !important;
 }
 
+/* Projects section text color - always black for better contrast on yellow background */
+#projects .text {
+  color: var(--dark) !important;
+}
+
+#light #projects .text {
+  color: var(--dark) !important;
+}
+
+#dark #projects .text {
+  color: var(--dark) !important;
+}
+
 /* Smooth scrolling and offset for fixed navbar */
 html {
   scroll-behavior: smooth;
