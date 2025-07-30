@@ -39,8 +39,8 @@
 .groupme-banner {
   box-sizing: border-box;
   position: absolute;
-  width: 365px;
-  height: 143px;
+  width: 450px;
+  height: 180px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -50,14 +50,14 @@
 }
 
 .groupme-content {
-  height: 143px;
+  height: 180px;
   left: 131px;
   top: 112px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 32px;
   text-align: center;
   letter-spacing: 0.05em;
   color: #FFFFFF;
@@ -121,7 +121,7 @@
     width: 90%;
     box-sizing: border-box;
     position: absolute;
-    height: 143px;
+    height: 180px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -135,7 +135,7 @@
     width: 90%;
     box-sizing: border-box;
     position: absolute;
-    height: 143px;
+    height: 180px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -148,8 +148,8 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 32px;
     text-align: center;
     letter-spacing: 0.05em;
     color: var(--light-text);
@@ -159,8 +159,8 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 32px;
     text-align: center;
     letter-spacing: 0.05em;
     color: var(--orange-dark);
