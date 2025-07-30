@@ -8,7 +8,7 @@
   --green-light: #012320;
   --light: #FEFEFC;
   --light-text: #FFFDF5;
-  --sand: #FFC107;
+  --sand: #eedd8d;
   --orange-light: #EFC473;
   --orange-dark: #F2A413;
   --heading: 40px;
@@ -81,6 +81,31 @@
 }
 
 #dark #projects .text {
+  color: var(--dark) !important;
+}
+
+/* Projects section headings - always black for better contrast */
+#projects h1 {
+  color: var(--dark) !important;
+}
+
+#projects h2 {
+  color: var(--dark) !important;
+}
+
+#light #projects h1 {
+  color: var(--dark) !important;
+}
+
+#light #projects h2 {
+  color: var(--dark) !important;
+}
+
+#dark #projects h1 {
+  color: var(--dark) !important;
+}
+
+#dark #projects h2 {
   color: var(--dark) !important;
 }
 
