@@ -7,7 +7,7 @@ import { team, teamGroupA, teamGroupB } from '../../data/index';
 const Team = () => {
   return (
     <div id='team' class='relative'>
-      <div class='absolute bottom-0 w-full h-[200px] team'></div>
+      <div class='absolute bottom-0 w-full h-[200px] team wedge-team-bottom'></div>
       <div
         id='theme'
         class='banner wedge-team pt-[16px] md:pt-[72px] pb-[64px] md:pb-[150px]'

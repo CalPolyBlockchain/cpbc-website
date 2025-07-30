@@ -68,7 +68,7 @@ function Projects() {
   };
 
   return (
-    <div id='theme' class='container-wide text'>
+    <div id='theme' class='container-wide text wedge-projects'>
       <div
         id='projects'
         class='text-big text-[42px] w-[100%] leading-[50px] pt-5 md:text-[90px] md:w-[100%] md:leading-[110px] lg:text-[132px] lg:leading-[145px] lg:w-[95%] xl:text-[132px] xl:leading-[145px] xl:w-[85%] 2xl:text-[132px] 2xl:leading-[155px] 2xl:w-[85%]'
