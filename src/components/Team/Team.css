@@ -62,3 +62,25 @@
 #dark .team-text {
   color: white !important;
 }
+
+/* Override text-flip for team section */
+#team .text-flip {
+  color: white !important;
+}
+
+#light #team .text-flip {
+  color: white !important;
+}
+
+#dark #team .text-flip {
+  color: white !important;
+}
+
+/* Override team member names */
+#team h2 {
+  color: white !important;
+}
+
+#team .text-gray-500 {
+  color: white !important;
+}
