@@ -23,7 +23,7 @@ const Partners = () => {
       <div className='partner-style'></div>
       <div
         ref={ref}
-        class='partner-background h-[800px] pt-[20px] z-10 relative'
+        class='partner-background h-[800px] wedge-partners pt-[20px] z-10 relative'
       >
         <div class='container-wide pt-[50px] pb-[10px] text-center font-semibold items-center text-med text-[29px] lg:text-[38px] lg:pt-[100px] text'>
           <h2> Our Partners</h2>

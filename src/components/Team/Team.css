@@ -31,6 +31,33 @@
   display: block; /* Ensure proper alignment */
 }
 
+/* Wedge styles for Team section */
+.wedge-team {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0 100%);
+  padding-bottom: 50px;
+}
+
+.wedge-team-bottom {
+  clip-path: polygon(0% 0%, 100% 8%, 100% 100%, 0 92%);
+}
+
+/* Theme-specific wedge colors */
+#light .wedge-team {
+  background-color: var(--sand);
+}
+
+#dark .wedge-team {
+  background-color: var(--green-dark);
+}
+
+#light .wedge-team-bottom {
+  background-color: var(--sand);
+}
+
+#dark .wedge-team-bottom {
+  background-color: var(--green-dark);
+}
+
 #light .team {
   background-color: var(--dark);
   color: white;

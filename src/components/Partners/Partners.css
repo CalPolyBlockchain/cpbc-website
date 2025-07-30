@@ -1,3 +1,17 @@
+/* Wedge styles for Partners section */
+.wedge-partners {
+  clip-path: polygon(0% 0%, 100% 8%, 100% 100%, 0 92%);
+}
+
+/* Theme-specific wedge colors */
+#light .wedge-partners {
+  background-color: var(--light);
+}
+
+#dark .wedge-partners {
+  background-color: var(--dark);
+}
+
 #light .partner-background {
   background-image: url("../../images/partners/atrium.jpg");
   background-size: cover;
