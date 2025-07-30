@@ -27,21 +27,6 @@ const About = () => {
           </div>
         </Modal>
       )}
-      <div className='relative w-[90%] m-auto'>
-        <a 
-          href="https://groupme.com/join_group/106384813/Ra9u0Er9"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="absolute groupme-banner border border-solid flex flex-col items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-        >
-          <div className="groupme-content text">
-            <p className="mt-2 text-[16px]">Join Our Community</p>
-            <p className="text-[20px] font-bold">Cal Poly Blockchain Club</p>
-            <p className="text-[14px]">Connect with us on GroupMe</p>
-            <p className="text-[14px]">Click to join →</p>
-          </div>
-        </a>
-      </div>
       <div className='relative h-[453px] md:h-[437px] lg:h-[700px] xl:h-[700px]  w-full overflow-clip'>
         <div
           className='about_bg w-full h-full'
@@ -49,6 +34,19 @@ const About = () => {
             backgroundPosition: `50% ${bgPos}%`,
           }}
         ></div>
+        <a 
+          href="https://groupme.com/join_group/106384813/Ra9u0Er9"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute groupme-banner border border-solid flex flex-col items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
+        >
+          <div className="groupme-content text">
+            <p className="mt-2 text-[16px]">Join the GroupMe</p>
+            <p className="text-[20px] font-bold">Cal Poly Blockchain Club</p>
+            <p className="text-[14px]">For updates and announcements</p>
+            <p className="text-[14px]">Click to join →</p>
+          </div>
+        </a>
       </div>
 
       <div className='flex flex-col container-wide  max-w-xl pb-10 text '>
