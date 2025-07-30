@@ -32,9 +32,33 @@
 }
 
 #light .team {
-  background-color: var(--sand)
+  background-color: var(--dark);
+  color: white;
 }
 
 #dark .team {
-  background-color: var(--green-dark)
+  background-color: var(--dark);
+  color: white;
+}
+
+#light .team-bg {
+  background-color: var(--dark);
+  color: white;
+}
+
+#dark .team-bg {
+  background-color: var(--dark);
+  color: white;
+}
+
+.team-text {
+  color: white !important;
+}
+
+#light .team-text {
+  color: white !important;
+}
+
+#dark .team-text {
+  color: white !important;
 }
