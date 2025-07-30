@@ -1,18 +1,5 @@
-/* Wedge styles for Projects section */
-.wedge-projects {
-  clip-path: polygon(0% 0%, 100% 8%, 100% 100%, 0 92%);
-  padding-top: 50px;
-  margin-top: -50px;
-}
-
-/* Theme-specific wedge colors */
-#light .wedge-projects {
-  background-color: var(--light);
-}
-
-#dark .wedge-projects {
-  background-color: var(--dark);
-}
+/* ===== PROJECTS PAGE STYLES ===== */
+/* All styles specific to the Projects page content */
 
 .slideshow-holder {
 	height: 300px;

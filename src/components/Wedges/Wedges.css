@@ -1,0 +1,93 @@
+/* ===== WEDGE STYLES ===== */
+/* All diagonal transition shapes between sections */
+
+/* Team Section Wedges */
+.wedge-team {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0 100%);
+  padding-bottom: 50px;
+}
+
+.wedge-team-bottom {
+  clip-path: polygon(0% 0%, 100% 8%, 100% 100%, 0 92%);
+}
+
+/* Projects Section Wedges */
+.wedge-projects {
+  clip-path: polygon(0% 0%, 100% 8%, 100% 100%, 0 92%);
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+/* About Section Wedges */
+.wedge-is-on {
+  clip-path: polygon(0% 8%, 100% 0%, 100% 92%, 0 100%);
+}
+
+/* Partners Section Wedges */
+.wedge-partners {
+  clip-path: polygon(0% 0%, 100% 8%, 100% 100%, 0 92%);
+}
+
+/* Socials Section Wedges */
+.wedge-is-on-social {
+  clip-path: polygon(0% 0%, 100% 15%, 100% 100%, 0% 85%);
+}
+
+/* ===== THEME-SPECIFIC WEDGE COLORS ===== */
+
+/* Light Theme Colors */
+#light .wedge-team {
+  background-color: var(--sand);
+}
+
+#light .wedge-team-bottom {
+  background-color: var(--sand);
+}
+
+#light .wedge-projects {
+  background-color: var(--light);
+}
+
+#light .wedge-is-on {
+  background-color: var(--light);
+}
+
+#light .wedge-partners {
+  background-color: var(--light);
+}
+
+#light .wedge-is-on-social {
+  background-color: var(--dark);
+}
+
+/* Dark Theme Colors */
+#dark .wedge-team {
+  background-color: var(--green-dark);
+}
+
+#dark .wedge-team-bottom {
+  background-color: var(--green-dark);
+}
+
+#dark .wedge-projects {
+  background-color: var(--dark);
+}
+
+#dark .wedge-is-on {
+  background-color: var(--dark);
+}
+
+#dark .wedge-partners {
+  background-color: var(--dark);
+}
+
+#dark .wedge-is-on-social {
+  background-color: var(--sand);
+}
+
+/* ===== RESPONSIVE WEDGE ADJUSTMENTS ===== */
+@media only screen and (max-width: 640px) {
+  .wedge-is-on-social {
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
+  }
+} 
