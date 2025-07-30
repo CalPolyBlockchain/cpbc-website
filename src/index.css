@@ -46,6 +46,31 @@
   background-color: var(--sand)
 }
 
+/* Socials and Projects sections - always use sand background */
+#socials.banner {
+  background-color: var(--sand) !important;
+}
+
+#projects.banner {
+  background-color: var(--sand) !important;
+}
+
+#light #socials.banner {
+  background-color: var(--sand) !important;
+}
+
+#dark #socials.banner {
+  background-color: var(--sand) !important;
+}
+
+#light #projects.banner {
+  background-color: var(--sand) !important;
+}
+
+#dark #projects.banner {
+  background-color: var(--sand) !important;
+}
+
 /* Smooth scrolling and offset for fixed navbar */
 html {
   scroll-behavior: smooth;
