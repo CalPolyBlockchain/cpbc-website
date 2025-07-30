@@ -36,6 +36,33 @@
 
 /* ===== TEAM PAGE THEME STYLES ===== */
 
+/* Make entire Team section background dark green */
+#team {
+  background-color: var(--dark);
+}
+
+#light #team {
+  background-color: var(--dark);
+}
+
+#dark #team {
+  background-color: var(--dark);
+}
+
+/* Team banner background */
+#team .banner {
+  background-color: var(--dark) !important;
+}
+
+#light #team .banner {
+  background-color: var(--dark) !important;
+}
+
+#dark #team .banner {
+  background-color: var(--dark) !important;
+}
+
+/* Individual team elements */
 #light .team {
   background-color: var(--dark);
   color: white;
