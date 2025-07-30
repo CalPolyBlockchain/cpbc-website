@@ -1,19 +1,12 @@
-import { useState, useRef, useEffect } from 'react';
-import {
-  cpbc_logo,
-  quarter,
-  heading,
-  dates,
-  location,
-  learnMoreLink,
-} from '../../data/index';
-import './About.css';
-import '../Modal/Modal.css';
+import React, { useState, useEffect } from 'react';
 import Modal from '../Modal/Modal';
 import ModalContent from '../Modal/ModalContent';
+import { cpbc_logo, learnMoreLink } from '../../data/index';
+import './About.css';
+
 const About = () => {
   const [showModal, setShowModal] = useState(false);
-  const [scrollY, setScrollY] = useState(400);
+  const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,20 +28,19 @@ const About = () => {
         </Modal>
       )}
       <div className='relative w-[90%] m-auto'>
-        <div 
-          className='absolute about_text_box border border-solid flex flex-col items-center justify-center cursor-pointer hover:opacity-80 transition-opacity'
-          onClick={() => window.open(location, '_blank')}
-          style={{ cursor: 'pointer' }}
+        <a 
+          href="https://groupme.com/join_group/106384813/Ra9u0Er9"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute groupme-banner border border-solid flex flex-col items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
         >
-          <div className='weekly_meetings_text text'>
-            <p className='mt-2 text-[16px]'>{quarter}</p>
-
-            <p className='text-[20px] font-bold'>{heading}</p>
-
-            <p className='text-[14px]'>{dates}</p>
-            <p className='text-[14px]'>Click to join GroupMe</p>
+          <div className="groupme-content text">
+            <p className="mt-2 text-[16px]">Join Our Community</p>
+            <p className="text-[20px] font-bold">Cal Poly Blockchain Club</p>
+            <p className="text-[14px]">Connect with us on GroupMe</p>
+            <p className="text-[14px]">Click to join →</p>
           </div>
-        </div>
+        </a>
       </div>
       <div className='relative h-[453px] md:h-[437px] lg:h-[700px] xl:h-[700px]  w-full overflow-clip'>
         <div

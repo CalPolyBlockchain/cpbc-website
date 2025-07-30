@@ -35,8 +35,8 @@
   display: none;
 }
 
-/* about_text_box_meetings */
-.about_text_box {
+/* GroupMe Banner */
+.groupme-banner {
   box-sizing: border-box;
   position: absolute;
   width: 365px;
@@ -45,19 +45,18 @@
   top: 97px;
   border-radius: 10px;
   z-index: 100;
+  text-decoration: none;
 }
 
-.weekly_meetings_text {
+.groupme-content {
   height: 143px;
   left: 131px;
   top: 112px;
-
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  /* or 175% */
   text-align: center;
   letter-spacing: 0.05em;
   color: #FFFFFF;
@@ -115,8 +114,8 @@
     display: contents;
   }
 
-  /* about_text_box_meetings */
-  #dark .about_text_box {
+  /* GroupMe Banner Mobile */
+  #dark .groupme-banner {
     margin: auto;
     width: 100%;
     box-sizing: border-box;
@@ -129,8 +128,7 @@
     z-index: 100;
   }
 
-  /* about_text_box_meetings */
-  #light .about_text_box {
+  #light .groupme-banner {
     margin: auto;
     width: 100%;
     box-sizing: border-box;
@@ -143,25 +141,23 @@
     z-index: 100;
   }
 
-  #dark .weekly_meetings_text {
+  #dark .groupme-content {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    /* or 175% */
     text-align: center;
     letter-spacing: 0.05em;
     color: var(--light-text);
   }
 
-  #light .weekly_meetings_text {
+  #light .groupme-content {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    /* or 175% */
     text-align: center;
     letter-spacing: 0.05em;
     color: var(--orange-dark);
