@@ -16,13 +16,13 @@ export const learnMoreLink = 'https://x.com/polyblockchain';
 export const socials = [
   {
     companyName: 'INSTAGRAM',
-    count: '209',
+    //count: '209',
     link: 'https://instagram.com/polyblockchain',
     icon: <FaInstagram />,
   },
   {
-    companyName: 'X',
-    count: '300',
+    //companyName: 'X',
+    //count: '300',
     link: 'https://x.com/polyblockchain',
     icon: <SiX />,
   },
