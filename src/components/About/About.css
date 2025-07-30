@@ -47,6 +47,7 @@
   border-radius: 10px;
   z-index: 100;
   text-decoration: none;
+  border: 2px dashed var(--dark);
 }
 
 .groupme-content {
@@ -60,7 +61,7 @@
   line-height: 32px;
   text-align: center;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: var(--dark);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -125,7 +126,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    border: 1px dashed var(--light-text);
+    border: 2px dashed var(--dark);
     border-radius: 10px;
     z-index: 100;
   }
@@ -139,7 +140,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    border: 1px dashed var(--orange-dark);
+    border: 2px dashed var(--dark);
     border-radius: 10px;
     z-index: 100;
   }
@@ -152,7 +153,7 @@
     line-height: 32px;
     text-align: center;
     letter-spacing: 0.05em;
-    color: var(--light-text);
+    color: var(--dark);
   }
 
   #light .groupme-content {
@@ -163,7 +164,7 @@
     line-height: 32px;
     text-align: center;
     letter-spacing: 0.05em;
-    color: var(--orange-dark);
+    color: var(--dark);
   }
 }
 
