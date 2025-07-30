@@ -24,7 +24,7 @@ export const socials = [
     companyName: 'X',
     //count: '300',
     link: 'https://x.com/polyblockchain',
-    icon: <SiX />,
+    icon: <SiX style={{ color: 'currentColor' }} />,
   },
 ];
 
