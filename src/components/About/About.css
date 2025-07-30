@@ -24,18 +24,6 @@
   background-color: #00282887;
 }
 
-.wedge-is-on {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
-}
-
-#light .wedge-is-on {
-  background-color: var(--light);
-}
-
-#dark .wedge-is-on {
-  background-color: var(--dark);
-}
-
 .hidden-mobile {
   display: contents;
 }

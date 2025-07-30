@@ -9,29 +9,6 @@
 	transition: all 0.5s ease-in 0s;
 }
 
-.wedge-projects {
-  clip-path: polygon(0% 0%, 100% 8%, 100% 100%, 0 92%);
-  padding-top: 50px;
-  margin-top: -50px;
-}
-
-#light .wedge-projects {
-  background-color: var(--light);
-}
-
-#dark .wedge-projects {
-  background-color: var(--dark);
-}
-
-@media only screen and (max-width: 640px) {
-  .wedge-projects {
-    clip-path: polygon(0% 0%, 100% 2%, 100% 100%, 0 98%);
-    padding-top: 30px;
-    margin-top: -30px;
-  }
-}
-
-
 .arrow {
 	transform: scale(100%);
 	transition: .3s ease-in-out;

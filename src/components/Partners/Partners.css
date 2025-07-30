@@ -12,24 +12,6 @@
   background-position: top center;
 }
 
-.wedge-partners {
-  clip-path: polygon(0% 2%, 100% 0%, 100% 92%, 0 100%);
-}
-
-#light .wedge-partners {
-  background-color: var(--light);
-}
-
-#dark .wedge-partners {
-  background-color: var(--dark);
-}
-
-@media only screen and (max-width: 640px) {
-  .wedge-partners {
-    clip-path: polygon(0% 5%, 100% 0%, 100% 98%, 0 100%);
-  }
-}
-
 #light .partner-style {
   height: 500px;
   position: absolute;
