@@ -1,4 +1,5 @@
-import { FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { SiX } from 'react-icons/si';
 
 /********************************** ABOUT DATA **********************************/
 export const logo = require('../images/logos/CPBC_transparent.png');
@@ -23,7 +24,7 @@ export const socials = [
     companyName: 'X',
     count: '300',
     link: 'https://x.com/polyblockchain',
-    icon: <FaTwitter />,
+    icon: <SiX />,
   },
 ];
 
