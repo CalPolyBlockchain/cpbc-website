@@ -28,7 +28,7 @@ const Footer = () => {
         </h2>
       </div>
       <div class='font-light  text-[14px] pt-5 md:text-[16px] mb-11 lg:text-[24px] xl:text-[24px] 2xl:text-[38px] text'>
-        <h2>© 2024 CPBC. All Rights Reserved.</h2>
+        <h2>© 2025 CPBC. All Rights Reserved.</h2>
       </div>
     </div>
   );
