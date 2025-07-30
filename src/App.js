@@ -19,8 +19,8 @@ function App() {
         <NavBar toggleTheme={toggleTheme} />
         <About />
         <Socials />
-        <Projects />
         <Team />
+        <Projects />
         <Partners />
         <Footer />
       </div>
