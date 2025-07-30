@@ -73,46 +73,47 @@
   color: white;
 }
 
+/* Change the bordered box to light yellow */
 #light .team-bg {
-  background-color: var(--dark);
-  color: white;
+  background-color: var(--sand);
+  color: var(--dark);
 }
 
 #dark .team-bg {
-  background-color: var(--dark);
-  color: white;
+  background-color: var(--sand);
+  color: var(--dark);
 }
 
 .team-text {
-  color: white !important;
+  color: var(--dark) !important;
 }
 
 #light .team-text {
-  color: white !important;
+  color: var(--dark) !important;
 }
 
 #dark .team-text {
-  color: white !important;
+  color: var(--dark) !important;
 }
 
-/* Override text-flip for team section */
+/* Override text-flip for team section - now dark text on light background */
 #team .text-flip {
-  color: white !important;
+  color: var(--dark) !important;
 }
 
 #light #team .text-flip {
-  color: white !important;
+  color: var(--dark) !important;
 }
 
 #dark #team .text-flip {
-  color: white !important;
+  color: var(--dark) !important;
 }
 
-/* Override team member names */
+/* Override team member names - now dark text */
 #team h2 {
-  color: white !important;
+  color: var(--dark) !important;
 }
 
 #team .text-gray-500 {
-  color: white !important;
+  color: var(--dark) !important;
 }
