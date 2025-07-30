@@ -6,7 +6,6 @@ import Socials from './components/Socials/Socials';
 import Team from './components/Team/Team';
 import Partners from './components/Partners/Partners';
 import Footer from './components/Footer/Footer';
-import './components/Wedges/Wedges.css'; // Global wedge styles
 export const ThemeContext = createContext(null);
 
 function App() {

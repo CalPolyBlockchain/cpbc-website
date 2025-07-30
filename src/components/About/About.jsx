@@ -46,7 +46,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className='relative wedge-is-on h-[453px] md:h-[437px] lg:h-[700px] xl:h-[700px]  w-full overflow-clip'>
+      <div className='relative h-[453px] md:h-[437px] lg:h-[700px] xl:h-[700px]  w-full overflow-clip'>
         <div
           className='about_bg w-full h-full'
           style={{
