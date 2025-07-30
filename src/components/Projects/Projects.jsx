@@ -75,7 +75,7 @@ function Projects() {
       >
         <h1>Projects and Activities</h1>
       </div>
-      <div class='container-mid text-med text-[24px] pt-5 md:text-[24px] lg:text-[38px] xl:text-[38px] 2xl:text-[42px]'>
+      <div class='container-mid text-med text-[24px] pt-5 md:text-[24px] lg:text-[38px] xl:text-[38px] 2xl:text-[42px] border-2 md:border-2 border-black rounded-2xl p-5'>
         <div>
           <h2>Student Projects</h2>
           <hr class='border-1-white  mt-3 '></hr>
@@ -113,7 +113,7 @@ function Projects() {
         </div>
       </div>
 
-      <div class='container-mid text-med text-[24px] pt-5 md:text-[24px] lg:text-[38px] xl:text-[38px] 2xl:text-[42px]'>
+      <div class='container-mid text-med text-[24px] pt-5 md:text-[24px] lg:text-[38px] xl:text-[38px] 2xl:text-[42px] border-2 md:border-2 border-black rounded-2xl p-5 mt-5'>
         <div>
           <h2 class=''>Hackathons</h2>
           <hr class='border-1-white mt-3 mb-3'></hr>
