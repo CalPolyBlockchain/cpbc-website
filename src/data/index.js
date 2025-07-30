@@ -21,7 +21,7 @@ export const socials = [
     icon: <FaInstagram />,
   },
   {
-    //companyName: 'X',
+    companyName: 'X',
     //count: '300',
     link: 'https://x.com/polyblockchain',
     icon: <SiX />,
