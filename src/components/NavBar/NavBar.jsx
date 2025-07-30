@@ -54,8 +54,8 @@ const NavBar = ({ toggleTheme }) => {
           <a className='texter' href='#projects'>
             PROJECTS
           </a>
-          <a className='texter' href='#join'>
-            JOIN
+          <a className='texter' href='#partners'>
+            OUR PARTNERS
           </a>
           <Toggle toggleTheme={toggleTheme} />
         </div>

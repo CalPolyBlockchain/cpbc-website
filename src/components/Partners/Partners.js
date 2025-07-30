@@ -19,7 +19,7 @@ const Partners = () => {
   }, []);
 
   return (
-    <div id='join' className='relative'>
+    <div id='partners' className='relative'>
       <div className='partner-style'></div>
       <div
         ref={ref}
