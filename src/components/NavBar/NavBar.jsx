@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { logo } from '../../data/index';
-import Toggle from '../Toggle/Toggle';
+// import Toggle from '../Toggle/Toggle';
 import './NavBar.css';
 
 const NavBar = ({ toggleTheme }) => {
@@ -33,8 +33,8 @@ const NavBar = ({ toggleTheme }) => {
           <a className='texter' href='#about'>
             ABOUT
           </a>
-          <a className='texter' href='#team'>
-            TEAM
+          <a className='texter' href='#socials'>
+            SOCIALS
           </a>
         </div>
         <div className='flex justify-center'>
@@ -51,13 +51,13 @@ const NavBar = ({ toggleTheme }) => {
           </a>
         </div>
         <div className='flex items-center justify-between w-1/3 '>
+          <a className='texter' href='#team'>
+            TEAM
+          </a>
           <a className='texter' href='#projects'>
             PROJECTS
           </a>
-          <a className='texter' href='#socials'>
-            SOCIALS
-          </a>
-          <Toggle toggleTheme={toggleTheme} />
+          {/* <Toggle toggleTheme={toggleTheme} /> */}
         </div>
       </div>
     </div>

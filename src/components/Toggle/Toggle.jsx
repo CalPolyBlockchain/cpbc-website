@@ -7,11 +7,12 @@ const Toggle = ({ toggleTheme }) => {
   return (
     <div className='flex'>
       <button
-        className='text-[24px]'
-        onClick={() => {
-          setIsOn(!isOn);
-          toggleTheme();
-        }}
+        className='text-[24px] opacity-50 cursor-not-allowed'
+        disabled={true}
+        // onClick={() => {
+        //   setIsOn(!isOn);
+        //   toggleTheme();
+        // }}
       >
         {isOn ? <FaToggleOn /> : <FaToggleOff class='orange' />}
       </button>
