@@ -88,21 +88,21 @@ const About = () => {
           up your own decentralized exchange! We show students and faculty how
           easy it is to plug into the DeFi ecosystem.
         </div>
-      </div>
-
-      <div className=' flex flex-col md:flex-row container-wide justify-between md:justify-center md:mx-1 '>
-        <button
-          className='contact-us text font-bold text-[18px] py-3 px-7  border-2 rounded-md md:mr-5 md:py-2 md:px-4 md:border-1 md:text-[12px] lg:text-[18px] lg:py-3 lg:px-7 '
-          onClick={() => setShowModal(true)}
-        >
-          Contact Us
-        </button>
-        <button
-          className='contact-us text font-bold text-[18px] mt-3 md:mt-0 py-3 px-7  border-2 rounded-md md:mr-10 md:py-2 md:px-4 md:border-1 md:text-[12px] lg:text-[18px] lg:py-3 lg:px-7 '
-          onClick={() => window.open(learnMoreLink)}
-        >
-          Learn More
-        </button>
+        
+        <div className='flex flex-col md:flex-row justify-between md:justify-center md:mx-1 mt-6'>
+          <button
+            className='contact-us text font-bold text-[18px] py-3 px-7  border-2 rounded-md md:mr-5 md:py-2 md:px-4 md:border-1 md:text-[12px] lg:text-[18px] lg:py-3 lg:px-7 '
+            onClick={() => setShowModal(true)}
+          >
+            Contact Us
+          </button>
+          <button
+            className='contact-us text font-bold text-[18px] mt-3 md:mt-0 py-3 px-7  border-2 rounded-md md:mr-10 md:py-2 md:px-4 md:border-1 md:text-[12px] lg:text-[18px] lg:py-3 lg:px-7 '
+            onClick={() => window.open(learnMoreLink)}
+          >
+            Learn More
+          </button>
+        </div>
       </div>
     </div>
   );
