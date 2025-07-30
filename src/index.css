@@ -68,6 +68,10 @@ html {
   scroll-margin-top: 100px;
 }
 
+#socials {
+  scroll-margin-top: 100px;
+}
+
 .text-big {
   font-weight: bold;
 }
