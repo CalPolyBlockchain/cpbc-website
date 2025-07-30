@@ -1,4 +1,4 @@
-import { FaDiscord, FaTwitter } from 'react-icons/fa';
+import { FaInstagram, FaXTwitter } from 'react-icons/fa6';
 
 /********************************** ABOUT DATA **********************************/
 export const logo = require('../images/logos/CPBC_transparent.png');
@@ -9,21 +9,21 @@ export const quarter = 'Fall Quarter 2025';
 export const heading = 'Weekly Meetings';
 export const dates = 'Tuesdays: 6:10pm - 5:00pm';
 export const location = 'Frost 181-102';
-export const learnMoreLink = 'https://twitter.com/polyblockchain';
+export const learnMoreLink = 'https://x.com/polyblockchain';
 
 /********************************** SOCIALS DATA **********************************/
 export const socials = [
   {
-    companyName: 'DISCORD',
+    companyName: 'INSTAGRAM',
     count: '209',
-    link: 'http://discord.gg/KtNtWd2akR',
-    icon: <FaDiscord />,
+    link: 'https://instagram.com/polyblockchain',
+    icon: <FaInstagram />,
   },
   {
-    companyName: 'TWITTER',
+    companyName: 'X',
     count: '300',
-    link: 'https://twitter.com/polyblockchain',
-    icon: <FaTwitter />,
+    link: 'https://x.com/polyblockchain',
+    icon: <FaXTwitter />,
   },
 ];
 

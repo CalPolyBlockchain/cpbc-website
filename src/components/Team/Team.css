@@ -7,6 +7,22 @@
   clip-path: polygon(0% 0%, 100% 8%, 100% 100%, 0 92%);
 }
 
+#light .wedge-team {
+  background-color: var(--sand);
+}
+
+#dark .wedge-team {
+  background-color: var(--green-dark);
+}
+
+#light .wedge-team-bottom {
+  background-color: var(--sand);
+}
+
+#dark .wedge-team-bottom {
+  background-color: var(--green-dark);
+}
+
 @media only screen and (max-width: 640px) {
   .wedge-team {
     clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 0 100%);
