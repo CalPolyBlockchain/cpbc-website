@@ -66,7 +66,7 @@ const Team = () => {
               >
                 <div className='team-text  text-[12px] font-regular mb-4 md:text-[12px] lg:text-[18px]  text-left pb-10'>
                   We are a multidisciplinary student ran organization founded in
-                  2018 with members from computer science, design, business,
+                  2020 with members from computer science, design, business,
                   graduate programs, and more. We believe blockchain will pave
                   the way towards a more equitable, transparent, & decentralized
                   future.
@@ -77,9 +77,9 @@ const Team = () => {
                 <div className='flex flex-col md:flex-row md:justify-evenly '>
                   <button
                     className='button-dark text-flip font-bold text-[18px] py-3 px-7  border-2 rounded-md  md:py-2 md:px-4 md:border-1 border-black md:text-[12px] lg:text-[18px] lg:py-3 lg:px-7 mb-2 md:mb-0'
-                    onClick={() => window.open('https://paragraph.xyz/@polyblockchain')}
+                    onClick={() => window.open('https://t.me/liammckeown', '_blank', 'noopener,noreferrer')}
                   >
-                    Mirror Blog
+                    Message President
                   </button>
                   <button
                     className='button-dark text-flip font-bold text-[18px] py-3 px-7  border-2 rounded-md md:py-2 md:px-4 md:border-1 border-black md:text-[12px] lg:text-[18px] lg:py-3 lg:px-7 '
