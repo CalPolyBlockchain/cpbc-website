@@ -46,6 +46,28 @@
   background-color: var(--sand)
 }
 
+/* Smooth scrolling and offset for fixed navbar */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Offset for fixed navigation bar */
+#about {
+  scroll-margin-top: 100px;
+}
+
+#team {
+  scroll-margin-top: 100px;
+}
+
+#projects {
+  scroll-margin-top: 100px;
+}
+
+#join {
+  scroll-margin-top: 100px;
+}
+
 .text-big {
   font-weight: bold;
 }
