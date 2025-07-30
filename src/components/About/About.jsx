@@ -35,14 +35,18 @@ const About = () => {
         </Modal>
       )}
       <div className='relative w-[90%] m-auto'>
-        <div className='absolute about_text_box border border-solid flex flex-col items-center justify-center'>
+        <div 
+          className='absolute about_text_box border border-solid flex flex-col items-center justify-center cursor-pointer hover:opacity-80 transition-opacity'
+          onClick={() => window.open(location, '_blank')}
+          style={{ cursor: 'pointer' }}
+        >
           <div className='weekly_meetings_text text'>
             <p className='mt-2 text-[16px]'>{quarter}</p>
 
             <p className='text-[20px] font-bold'>{heading}</p>
 
             <p className='text-[14px]'>{dates}</p>
-            <p className='text-[14px]'>{location}</p>
+            <p className='text-[14px]'>Click to join GroupMe</p>
           </div>
         </div>
       </div>

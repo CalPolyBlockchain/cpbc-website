@@ -6,10 +6,10 @@ export const logo = require('../images/logos/CPBC_transparent.png');
 const morro_night1 = require('../images/hero/h1');
 export const projectHero = [morro_night1];
 export const cpbc_logo = require('../images/logos/CPBC_transparent.png');
-export const quarter = 'Fall Quarter 2025';
-export const heading = 'Weekly Meetings';
-export const dates = 'Tuesdays: 6:10pm - 5:00pm';
-export const location = 'Frost 181-102';
+export const quarter = 'Join Our Community';
+export const heading = 'Cal Poly Blockchain Club';
+export const dates = 'Connect with us on GroupMe';
+export const location = 'https://groupme.com/join_group/106384813/Ra9u0Er9';
 export const learnMoreLink = 'https://x.com/polyblockchain';
 
 /********************************** SOCIALS DATA **********************************/
