@@ -27,7 +27,7 @@
 /* GroupMe Banner Border Styles */
 .groupme-banner {
   box-sizing: border-box;
-  position: fixed;
+  position: absolute;
   width: 450px;
   height: 180px;
   left: 50%;
@@ -103,7 +103,7 @@
     margin: auto;
     width: 90%;
     box-sizing: border-box;
-    position: fixed;
+    position: absolute;
     height: 180px;
     left: 50%;
     top: 50%;
