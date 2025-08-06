@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { logo } from '../../data/index';
-// import Toggle from '../Toggle/Toggle';
 import './NavBar.css';
 
-const NavBar = ({ toggleTheme }) => {
+const NavBar = () => {
   const [scrollY, setScrollY] = useState(0);
-  const [isHover, setIsHover] = useState(false);
 
   useEffect(() => {
     function handleScroll() {
@@ -57,7 +55,6 @@ const NavBar = ({ toggleTheme }) => {
           <a className='texter' href='#projects'>
             PROJECTS
           </a>
-          {/* <Toggle toggleTheme={toggleTheme} /> */}
         </div>
       </div>
     </div>

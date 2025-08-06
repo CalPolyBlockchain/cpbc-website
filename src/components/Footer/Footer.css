@@ -1,15 +1,7 @@
-#light .footer-style {
+.footer-style {
   color: var(--orange-light)
 }
 
-#light .footer-style:hover {
-  color: var(--dark)
-}
-
-#dark .footer-style {
-  color: var(--orange-light)
-}
-
-#dark .footer-style:hover {
+.footer-style:hover {
   color: var(--sand);
 }

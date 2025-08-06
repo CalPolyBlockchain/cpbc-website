@@ -1,28 +1,14 @@
 /* ===== PARTNERS PAGE STYLES ===== */
 /* All styles specific to the Partners page content */
 
-#light .partner-background {
-  background-image: url("../../images/partners/atrium.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-
-#dark .partner-background {
+.partner-background {
   background-image: url("../../images/partners/KennedyLibrary_Atrium.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 
-#light .partner-style {
-  height: 500px;
-  position: absolute;
-  width: 100%;
-  background: linear-gradient(to top, #FCFBF8, var(--sand));
-}
-
-#dark .partner-style {
+.partner-style {
   height: 500px;
   position: absolute;
   width: 100%;

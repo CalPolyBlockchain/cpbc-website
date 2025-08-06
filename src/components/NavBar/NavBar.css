@@ -2,51 +2,30 @@
     transition: all 0.7s ease-in-out;
     width: 100vw;
     z-index:100;
-
 }
 
 .calpolylogo {
     transition: all 0.3s ease-in-out;
 }
 
-#dark .navbarOn {
+.navbarOn {
     background-color: rgba(2, 21, 16, .9);
     padding-top: 0px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-#dark .navbarOff {
+.navbarOff {
     background-color: transparent;
     padding-top: 10px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0);
 }
 
-#dark .texter {
+.texter {
     color: var(--sand);
 }
 
-#light .texter {
-    color: var(--sand);
-}
-
-#dark .texter:hover {
+.texter:hover {
     color: var(--orange-light);
-}
-
-#light .texter:hover {
-    color: var(--orange-dark);
-}
-
-#light .navbarOn {
-    background-color: rgba(3, 30, 23, .95);
-    padding-top: 0px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-}
-
-#light .navbarOff {
-    background-color: transparent;
-    padding-top: 10px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0);
 }
 
 .orange {

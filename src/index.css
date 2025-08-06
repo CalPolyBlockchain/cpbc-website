@@ -6,7 +6,6 @@
   --dark: #031E17;
   --green-dark: #02030C;
   --green-light: #012320;
-  --light: #FEFEFC;
   --light-text: #FFFDF5;
   --sand: #eedd8d;
   --orange-light: #EFC473;
@@ -14,36 +13,20 @@
   --heading: 40px;
 }
 
-#light {
-  background-color: var(--light);
-}
-
-#dark {
+body {
   background-color: var(--dark);
 }
 
-#light .text {
-  color: var(--dark);
-}
-
-#dark .text {
+.text {
   color: var(--sand);
 }
 
-#light .text-flip {
-  color: var(--sand);
-}
-
-#dark .text-flip {
+.text-flip {
   color: var(--dark);
 }
 
-#light .banner {
-  background-color: var(--dark)
-}
-
-#dark .banner {
-  background-color: var(--sand)
+.banner {
+  background-color: var(--sand);
 }
 
 /* Socials and Projects sections - always use sand background */
@@ -55,32 +38,8 @@
   background-color: var(--sand) !important;
 }
 
-#light #socials.banner {
-  background-color: var(--sand) !important;
-}
-
-#dark #socials.banner {
-  background-color: var(--sand) !important;
-}
-
-#light #projects.banner {
-  background-color: var(--sand) !important;
-}
-
-#dark #projects.banner {
-  background-color: var(--sand) !important;
-}
-
 /* Projects section text color - always black for better contrast on yellow background */
 #projects .text {
-  color: var(--dark) !important;
-}
-
-#light #projects .text {
-  color: var(--dark) !important;
-}
-
-#dark #projects .text {
   color: var(--dark) !important;
 }
 
@@ -92,24 +51,6 @@
 #projects h2 {
   color: var(--dark) !important;
 }
-
-#light #projects h1 {
-  color: var(--dark) !important;
-}
-
-#light #projects h2 {
-  color: var(--dark) !important;
-}
-
-#dark #projects h1 {
-  color: var(--dark) !important;
-}
-
-#dark #projects h2 {
-  color: var(--dark) !important;
-}
-
-
 
 /* Smooth scrolling and offset for fixed navbar */
 html {
@@ -146,166 +87,126 @@ html {
 }
 
 .text-narrow {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 body {
   margin: 0;
-  font-family: "Poppins";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 .container-wide {
-  margin: auto;
   width: 90%;
-  max-width: 1536px;
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
 .container-mid {
-  margin: auto;
-  width: 100%;
-  max-width: 1100px;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .container-nav {
-  margin: auto;
-  width: 100%;
-  max-width: 680px;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 @media only screen and (max-width: 1280px) {
   .container-wide {
-    margin: auto;
-    width: 90%;
-    max-width: 1024px;
+    width: 95%;
   }
 
   .container-mid {
-    margin: auto;
-    width: 100%;
-    max-width: 900px;
+    width: 85%;
   }
 
   .container-nav {
-    margin: auto;
-    width: 100%;
-    max-width: 680px;
+    width: 85%;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .container-wide {
-    margin: auto;
-    width: 90%;
-    max-width: 768px;
+    width: 95%;
   }
 
   .container-mid {
-    margin: auto;
-    width: 100%;
-    max-width: 768px;
+    width: 90%;
   }
 
   .container-nav {
-    margin: auto;
-    width: 100%;
-    max-width: 680px;
+    width: 90%;
   }
 }
 
 @media only screen and (max-width: 640px) {
   .container-wide {
-    margin: auto;
-    width: 90%;
-    max-width: 480px;
+    width: 95%;
   }
 
   .container-mid {
-    margin: auto;
-    width: 100%;
-    max-width: 480px;
+    width: 95%;
   }
 
   .container-nav {
-    margin: auto;
-    width: 100%;
-    max-width: 480px;
+    width: 95%;
   }
 }
 
 .button-dark {
-  transition: all 0.2s ease-in-out;
-  background-color: transparent;
-  color: var(--dark);
-}
-
-#light .button-dark:hover {
-  background-color: var(--orange-dark);
-  color: var(--light-text) !important;
-}
-
-#dark .button-dark:hover {
   background-color: var(--dark);
-  color: var(--light-text) !important;
-  border-color: transparent;
+  color: var(--sand);
+  border: 2px solid var(--dark);
+  transition: all 0.3s ease-in-out;
 }
 
-
-#light .button-dark-flip {
-  transition: all 0.2s ease-in-out;
-  background-color: transparent;
+.button-dark:hover {
+  background-color: var(--sand);
   color: var(--dark);
+  border: 2px solid var(--sand);
 }
 
-#light .button-dark-flip:hover {
+.button-dark-flip {
+  background-color: var(--sand);
+  color: var(--dark);
+  border: 2px solid var(--sand);
+  transition: all 0.3s ease-in-out;
+}
+
+.button-dark-flip:hover {
   background-color: var(--dark);
-  color: var(--light-text);
-  border-color: transparent;
-}
-
-#dark .button-dark-flip {
-  transition: all 0.2s ease-in-out;
-  background-color: transparent;
-  color: var(--light-text);
-}
-
-#dark .button-dark-flip:hover {
-  background-color: var(--orange-dark);
-  color: var(--light-text) !important;
+  color: var(--sand);
+  border: 2px solid var(--dark);
 }
 
 .scale {
-  transform: scale(100%);
-  transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 0.3s ease-in-out;
 }
 
 .scale:hover {
-  transform: scale(120%);
-
+  transform: scale(1.05);
 }
 
-
 .hover-effect {
-  animation-play-state: paused;
-  box-shadow: none;
+  transition: all 0.3s ease-in-out;
 }
 
 @keyframes hover-animation {
   0% {
-    transform: translateY(0);
+    transform: scale(1);
   }
-
   50% {
-    transform: translateY(-4px);
+    transform: scale(1.05);
   }
-
   100% {
-    transform: translateY(0);
+    transform: scale(1);
   }
 }
 
 .hover-effect:hover {
-  animation: hover-animation 2s ease-in-out infinite;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  animation: hover-animation 0.3s ease-in-out;
 }

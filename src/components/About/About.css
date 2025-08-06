@@ -1,30 +1,17 @@
 /* ===== ABOUT PAGE STYLES ===== */
 /* All styles specific to the About page content */
 
-#dark .about_bg {
+.about_bg {
   background-image: url('../../images/hero/h1');
   background-size: cover;
 }
 
-#light .about_bg {
-  background-image: url('../../images/hero/h4');
-  background-size: cover;
-}
-
-#dark .border {
+.border {
   border: 1px dashed var(--sand);
 }
 
-#light .border {
-  border: 1px dashed var(--dark)
-}
-
-#dark .team-bg {
-  background-color: "transparent";
-}
-
-#light .team-bg {
-  background-color: #00282887;
+.team-bg {
+  background-color: transparent;
 }
 
 .hidden-mobile {
@@ -65,15 +52,8 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  #dark .about_bg {
+  .about_bg {
     background-image: url('../../images/hero/h1');
-    background-size: cover;
-    background-position: 50% 49%;
-    scale: 100%;
-  }
-
-  #light .about_bg {
-    background-image: url('../../images/hero/h4');
     background-size: cover;
     background-position: 50% 49%;
     scale: 100%;
@@ -99,12 +79,7 @@
 }
 
 @media only screen and (max-width: 640px) {
-  #dark .about_bg {
-    scale: 150%;
-  }
-
-  #light .about_bg {
-    background-position: 30% 10px;
+  .about_bg {
     scale: 150%;
   }
 
@@ -117,7 +92,7 @@
   }
 
   /* GroupMe Banner Mobile */
-  #dark .groupme-banner {
+  .groupme-banner {
     margin: auto;
     width: 90%;
     box-sizing: border-box;
@@ -131,32 +106,7 @@
     z-index: 100;
   }
 
-  #light .groupme-banner {
-    margin: auto;
-    width: 90%;
-    box-sizing: border-box;
-    position: absolute;
-    height: 180px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border: 2px dashed var(--dark);
-    border-radius: 10px;
-    z-index: 100;
-  }
-
-  #dark .groupme-content {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: var(--dark);
-  }
-
-  #light .groupme-content {
+  .groupme-content {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -168,28 +118,13 @@
   }
 }
 
-#light .contact-us {
-  transition: all 0.2s ease-in-out;
-  background-color: var(--dark);
-  border-color: transparent;
-  color: var(--light-text);
-}
-
-#light .contact-us:hover {
-  background-color: var(--orange-dark);
-  color: var(--light-text);
-  border-color: transparent;
-  box-shadow: 0px 2px rgb(214, 214, 214);
-}
-
-#dark .contact-us {
+.contact-us {
   transition: all 0.2s ease-in-out;
   background-color: var(--dark);
   color: var(--light-text);
-
 }
 
-#dark .contact-us:hover {
+.contact-us:hover {
   background-color: var(--orange-dark);
   color: var(--light-text);
   border-color: transparent;

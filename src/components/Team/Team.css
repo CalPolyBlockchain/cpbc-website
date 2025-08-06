@@ -41,45 +41,19 @@
   background-color: var(--dark);
 }
 
-#light #team {
-  background-color: var(--dark);
-}
-
-#dark #team {
-  background-color: var(--dark);
-}
-
 /* Team banner background */
 #team .banner {
   background-color: var(--dark) !important;
 }
 
-#light #team .banner {
-  background-color: var(--dark) !important;
-}
-
-#dark #team .banner {
-  background-color: var(--dark) !important;
-}
-
 /* Individual team elements */
-#light .team {
-  background-color: var(--dark);
-  color: white;
-}
-
-#dark .team {
+.team {
   background-color: var(--dark);
   color: white;
 }
 
 /* Change the bordered box to light yellow */
-#light .team-bg {
-  background-color: var(--sand);
-  color: var(--dark);
-}
-
-#dark .team-bg {
+.team-bg {
   background-color: var(--sand);
   color: var(--dark);
 }
@@ -88,24 +62,8 @@
   color: var(--dark) !important;
 }
 
-#light .team-text {
-  color: var(--dark) !important;
-}
-
-#dark .team-text {
-  color: var(--dark) !important;
-}
-
 /* Override text-flip for team section - now dark text on light background */
 #team .text-flip {
-  color: var(--dark) !important;
-}
-
-#light #team .text-flip {
-  color: var(--dark) !important;
-}
-
-#dark #team .text-flip {
   color: var(--dark) !important;
 }
 
