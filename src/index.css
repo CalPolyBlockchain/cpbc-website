@@ -109,42 +109,7 @@
   color: var(--dark) !important;
 }
 
-/* Hackathons section text color - always black for better contrast */
-#projects #hackathons .text {
-  color: var(--dark) !important;
-}
 
-#projects #hackathons .hack-name {
-  color: var(--dark) !important;
-}
-
-#projects #hackathons .date-box {
-  color: var(--dark) !important;
-}
-
-#light #projects #hackathons .text {
-  color: var(--dark) !important;
-}
-
-#light #projects #hackathons .hack-name {
-  color: var(--dark) !important;
-}
-
-#light #projects #hackathons .date-box {
-  color: var(--dark) !important;
-}
-
-#dark #projects #hackathons .text {
-  color: var(--dark) !important;
-}
-
-#dark #projects #hackathons .hack-name {
-  color: var(--dark) !important;
-}
-
-#dark #projects #hackathons .date-box {
-  color: var(--dark) !important;
-}
 
 /* Smooth scrolling and offset for fixed navbar */
 html {

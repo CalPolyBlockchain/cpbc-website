@@ -1,20 +1,50 @@
+/* ===== HACKATHON BORDER STYLES ===== */
+
+/* Date box borders - yellow for all themes */
 #light .date-box {
-  border: 2px solid #222222;
+  border: 2px solid #eedd8d;
 }
 
 #dark .date-box {
-  border: 2px solid #ffffff;
+  border: 2px solid #eedd8d;
 }
 
+/* Yellow box borders */
 #light .yellow-box {
-  border: 2px solid #ffdb1c;
+  border: 2px solid #eedd8d;
   border-radius: 1px;
 }
 
 #dark .yellow-box {
-  border: 2px solid #ffdb1c;
+  border: 2px solid #eedd8d;
   border-radius: 1px;
 }
+
+/* Mobile responsive borders */
+@media only screen and (max-width: 640px) {
+  #light .yellow-box {
+    border: 1px solid #eedd8d;
+    border-radius: 1px;
+  }
+
+  #dark .yellow-box {
+    border: 1px solid #eedd8d;
+    border-radius: 1px;
+  }
+}
+
+/* ===== HACKATHON TEXT STYLES ===== */
+
+/* All text in hackathons section - always black */
+#projects #hackathons .text,
+#projects #hackathons .hack-name,
+#projects #hackathons .date-box,
+#projects #hackathons p,
+#projects #hackathons span {
+  color: var(--dark);
+}
+
+/* ===== HACKATHON ANIMATION STYLES ===== */
 
 .animated-div {
   /* Initial styles */
@@ -27,39 +57,16 @@
 }
 
 .lefter {
-  left: -1rem
-    /* -16px */
-  ;
+  left: -1rem;
 }
 
-@media only screen and (max-width: 1280px) {}
-
-@media only screen and (max-width: 1024px) {}
-
 @media only screen and (max-width: 640px) {
-  #light .yellow-box {
-    border: 1px solid #ffdb1c;
-    border-radius: 1px;
-  }
-
-  #dark .yellow-box {
-    border: 1px solid #ffdb1c;
-    border-radius: 1px;
-  }
-
   .animating {
     /* Animation styles */
     transform: translateX(4px);
   }
 
   .lefter {
-    left: -.7rem
-      /* -16px */
-    ;
+    left: -.7rem;
   }
-}
-
-[data-is-future="true"]{
-  border: 2px solid var(--orange-dark) !important;
-  color: var(--orange-dark) !important;
 }

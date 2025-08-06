@@ -17,7 +17,7 @@ export const socials = [
     icon: <FaInstagram />,
   },
   {
-    companyName: 'X',
+    //companyName: 'X',
     //count: '300',
     link: 'https://x.com/polyblockchain',
     icon: <SiX style={{ color: 'currentColor' }} />,
@@ -59,14 +59,12 @@ const Token2049 = require('../images/hackathons/Token2049.jpeg');
 
 export const hackathons = [
   {
-    isFuture: true,
     eventName: 'Token2049 Dubai',
     startDate: 'April 18, 2024',
     endDate: 'April 19, 2024',
     imgUrl: Token2049,
   },
   {
-    isFuture: false,
     eventName: 'MIT Bitcoin Hackathon: Scaling Up',
     startDate: 'April 19, 2024',
     endDate: 'April 21, 2024',
@@ -75,7 +73,6 @@ export const hackathons = [
     link: 'https://mitbitcoin.devpost.com/?ref_content=online-hackathons&ref_feature=challenge&ref_medium=blockchain-channel',
   },
   {
-    isFuture: false,
     eventName: 'ETH MEXICO 2022',
     startDate: 'Aug 19, 2022',
     endDate: 'Aug 21, 2022',
@@ -83,7 +80,6 @@ export const hackathons = [
     link: 'https://mexico.ethglobal.com/',
   },
   {
-    isFuture: false,
     eventName: 'ETH CC5 Paris 2022',
     startDate: 'Jul 19, 2022',
     endDate: 'July 21, 2022',
@@ -92,7 +88,6 @@ export const hackathons = [
     link: 'https://ethcc.io/',
   },
   {
-    isFuture: false,
     eventName: 'Road to Web3 2022',
     startDate: 'Feb 3, 2022',
     endDate: 'Feb 8, 2022',

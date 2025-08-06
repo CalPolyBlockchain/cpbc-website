@@ -3,7 +3,7 @@ import './Hackathon.css';
 import { useState, useEffect } from 'react';
 
 const Hackathon = ({ data, cascade }) => {
-  const { eventName, startDate, endDate, imgUrl, link, isFuture } = data;
+  const { eventName, startDate, endDate, imgUrl, link } = data;
   const [isAnimating, setIsAnimating] = useState(false);
   const [isHover, setIsHover] = useState(false);
 
@@ -65,9 +65,8 @@ const Hackathon = ({ data, cascade }) => {
             {eventName}{' '}
           </div>
           <div className='flex items-center text-[22px]'  >
-            <div className='date-box border-1 rounded-md p-2 text-[16px] md:text-[22px] md:p-3' data-is-future={isFuture}>
+            <div className='date-box border-1 rounded-md p-2 text-[16px] md:text-[22px] md:p-3'>
               {startDate} <span> {'>'} </span> {endDate}
-              {isFuture && <p className='text-[12px]'>* Contact us to find out more</p>}
             </div>
           </div>
         </div>
