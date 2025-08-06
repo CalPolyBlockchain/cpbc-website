@@ -158,16 +158,16 @@ body {
 }
 
 .button-dark {
-  background-color: var(--dark);
-  color: var(--sand);
+  background-color: transparent;
+  color: var(--dark);
   border: 2px solid var(--dark);
   transition: all 0.3s ease-in-out;
 }
 
 .button-dark:hover {
-  background-color: var(--sand);
-  color: var(--dark);
-  border: 2px solid var(--sand);
+  background-color: var(--dark);
+  color: var(--sand);
+  border: 2px solid var(--dark);
 }
 
 .button-dark-flip {
