@@ -1,33 +1,19 @@
 /* ===== HACKATHON BORDER STYLES ===== */
 
 /* Date box borders - yellow for all themes */
-#light .date-box {
-  border: 2px solid #eedd8d;
-}
-
-#dark .date-box {
+.date-box {
   border: 2px solid #eedd8d;
 }
 
 /* Yellow box borders */
-#light .yellow-box {
-  border: 2px solid #eedd8d;
-  border-radius: 1px;
-}
-
-#dark .yellow-box {
+.yellow-box {
   border: 2px solid #eedd8d;
   border-radius: 1px;
 }
 
 /* Mobile responsive borders */
 @media only screen and (max-width: 640px) {
-  #light .yellow-box {
-    border: 1px solid #eedd8d;
-    border-radius: 1px;
-  }
-
-  #dark .yellow-box {
+  .yellow-box {
     border: 1px solid #eedd8d;
     border-radius: 1px;
   }
@@ -40,8 +26,10 @@
 #projects #hackathons .hack-name,
 #projects #hackathons .date-box,
 #projects #hackathons p,
-#projects #hackathons span {
-  color: var(--dark);
+#projects #hackathons span,
+#projects #hackathons a,
+#projects #hackathons div {
+  color: var(--dark) !important;
 }
 
 /* ===== HACKATHON ANIMATION STYLES ===== */

@@ -27,11 +27,11 @@
 /* GroupMe Banner Border Styles */
 .groupme-banner {
   box-sizing: border-box;
-  position: absolute;
+  position: fixed;
   width: 450px;
   height: 180px;
   left: 50%;
-  top: 40%;
+  top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
   z-index: 100;
@@ -103,10 +103,10 @@
     margin: auto;
     width: 90%;
     box-sizing: border-box;
-    position: absolute;
+    position: fixed;
     height: 180px;
     left: 50%;
-    top: 40%;
+    top: 50%;
     transform: translate(-50%, -50%);
     border: 2px dashed var(--sand);
     border-radius: 10px;
