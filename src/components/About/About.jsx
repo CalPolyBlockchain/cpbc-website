@@ -6,7 +6,7 @@ import './About.css';
 
 const About = () => {
   const [showModal, setShowModal] = useState(false);
-  const [scrollY, setScrollY] = useState(0);
+  const [scrollY, setScrollY] = useState(650); // Start at the stable position instead of 0
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,8 +16,9 @@ const About = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   const screenHeight = window.innerHeight;
+  // Start at the stable position (like when scrolled back to top) instead of initial load position
   const bgPos =
-    scrollY < 650 ? (scrollY / screenHeight) * 100 : (650 / screenHeight) * 100;
+    scrollY < 650 ? Math.max((scrollY / screenHeight) * 100, (650 / screenHeight) * 100) : (650 / screenHeight) * 100;
   return (
     <div id='top' className='mb-20'>
       {showModal && (

@@ -164,7 +164,9 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.button-dark:hover {
+.button-dark:hover,
+.button-dark.text-flip:hover,
+#team .button-dark.text-flip:hover {
   background-color: var(--dark);
   color: var(--sand);
   border: 2px solid var(--dark);
